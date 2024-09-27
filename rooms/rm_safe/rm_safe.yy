@@ -27,8 +27,8 @@
   ],
   "name":"rm_safe",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"clue_room",
+    "path":"folders/Rooms/clue_room.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
