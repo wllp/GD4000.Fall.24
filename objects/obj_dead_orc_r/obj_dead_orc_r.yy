@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_knife_ds",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dead_orc_r",
+  "eventList":[],
   "managed":true,
-  "name":"obj_knife_ds",
+  "name":"obj_dead_orc_r",
   "overriddenProperties":[],
   "parent":{
-    "name":"book clues",
-    "path":"folders/Objects/book clues.yy",
+    "name":"room_obj",
+    "path":"folders/Objects/room_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"knife_pu",
-    "path":"sprites/knife_pu/knife_pu.yy",
+    "name":"dead_orc_r",
+    "path":"sprites/dead_orc_r/dead_orc_r.yy",
   },
   "spriteMaskId":null,
   "visible":true,

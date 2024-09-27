@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_knife",
+  "%Name":"obj_pass_pu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_knife",
+  "name":"obj_pass_pu",
   "overriddenProperties":[],
   "parent":{
-    "name":"cluse",
-    "path":"folders/Objects/cluse.yy",
+    "name":"book clues",
+    "path":"folders/Objects/book clues.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"knife22",
-    "path":"sprites/knife22/knife22.yy",
+    "name":"pass_pu",
+    "path":"sprites/pass_pu/pass_pu.yy",
   },
   "spriteMaskId":null,
   "visible":true,
