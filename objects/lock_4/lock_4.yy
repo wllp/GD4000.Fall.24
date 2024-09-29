@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"briefcase_r",
+  "%Name":"lock_4",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"briefcase_r",
+  "name":"lock_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"room_obj",
-    "path":"folders/Objects/room_obj.yy",
+    "name":"briefcase_lock",
+    "path":"folders/Objects/briefcase_lock.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bbriefcase_r",
-    "path":"sprites/bbriefcase_r/bbriefcase_r.yy",
+    "name":"briefcase_lock",
+    "path":"sprites/briefcase_lock/briefcase_lock.yy",
   },
   "spriteMaskId":null,
   "visible":true,
