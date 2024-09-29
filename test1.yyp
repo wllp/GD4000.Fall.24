@@ -54,7 +54,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"test1",
   "resources":[
@@ -129,6 +129,7 @@
     {"id":{"name":"rm_selector","path":"rooms/rm_selector/rm_selector.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
+    {"id":{"name":"Dialougue","path":"scripts/Dialougue/Dialougue.yy",},},
     {"id":{"name":"sfx_wind","path":"sounds/sfx_wind/sfx_wind.yy",},},
     {"id":{"name":"back_but","path":"sprites/back_but/back_but.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
