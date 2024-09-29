@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"briefcase_r",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_briefcase_op_r",
+  "eventList":[],
   "managed":true,
-  "name":"briefcase_r",
+  "name":"obj_briefcase_op_r",
   "overriddenProperties":[],
   "parent":{
     "name":"room_obj",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bbriefcase_r",
-    "path":"sprites/bbriefcase_r/bbriefcase_r.yy",
+    "name":"bbriefcase_op_r",
+    "path":"sprites/bbriefcase_op_r/bbriefcase_op_r.yy",
   },
   "spriteMaskId":null,
   "visible":true,
