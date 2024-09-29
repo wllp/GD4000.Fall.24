@@ -1,5 +1,7 @@
-if keyboard_check_pressed(ord("I"))and instance_exists(obj_note_book)
+if keyboard_check_pressed(ord("I"))
 {
-	instance_destroy(id)
-	instance_destroy(obj_mouse1)
+room_goto(Target_Room);
+obj_player.x = Target_X;
+obj_player.y = Target_Y;
+room_goto(global.room);
 }
