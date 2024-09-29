@@ -12,6 +12,7 @@
     {"name":"Obj_in_iteams","order":1,"path":"folders/Objects/cluse/Obj_in_iteams.yy",},
     {"name":"manegers","order":10,"path":"folders/Objects/manegers.yy",},
     {"name":"NPC's","order":9,"path":"folders/Objects/NPC's.yy",},
+    {"name":"companions","order":1,"path":"folders/Objects/NPC's/companions.yy",},
     {"name":"Pause Elements","order":19,"path":"folders/Objects/Pause Elements.yy",},
     {"name":"room_obj","order":16,"path":"folders/Objects/room_obj.yy",},
     {"name":"text","order":14,"path":"folders/Objects/text.yy",},
@@ -35,6 +36,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"button_parent","order":2,"path":"objects/button_parent/button_parent.yy",},
+    {"name":"companion_2","order":1,"path":"objects/companion_2/companion_2.yy",},
     {"name":"destroy_items","order":5,"path":"objects/destroy_items/destroy_items.yy",},
     {"name":"globle_maneger","order":6,"path":"objects/globle_maneger/globle_maneger.yy",},
     {"name":"lock_2","order":1,"path":"objects/lock_2/lock_2.yy",},
@@ -75,6 +77,7 @@
     {"name":"briefcaseRoom","order":2,"path":"rooms/briefcaseRoom/briefcaseRoom.yy",},
     {"name":"crimeRoom","order":1,"path":"rooms/crimeRoom/crimeRoom.yy",},
     {"name":"detectiveOffice","order":4,"path":"rooms/detectiveOffice/detectiveOffice.yy",},
+    {"name":"noteBook","order":9,"path":"rooms/noteBook/noteBook.yy",},
     {"name":"orcSt","order":5,"path":"rooms/orcSt/orcSt.yy",},
     {"name":"rm_help","order":1,"path":"rooms/rm_help/rm_help.yy",},
     {"name":"rm_safe","order":1,"path":"rooms/rm_safe/rm_safe.yy",},

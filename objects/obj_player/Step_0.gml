@@ -1,4 +1,5 @@
-
+if is_busy= false
+{
 //move left
 if keyboard_check(ord("A"))or keyboard_check(vk_left)
 {
@@ -58,6 +59,7 @@ if !place_meeting(x,y,obj_door)
 {
 	instance_destroy(obj_interact_but)
 	show_debug_message("yes")
+}
 }
 
 
