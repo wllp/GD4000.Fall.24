@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"companion_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_greatest_dic_awared",
+  "eventList":[],
   "managed":true,
-  "name":"companion_1",
+  "name":"obj_greatest_dic_awared",
   "overriddenProperties":[],
   "parent":{
-    "name":"companions",
-    "path":"folders/Objects/NPC's/companions.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite28",
-    "path":"sprites/Sprite28/Sprite28.yy",
+    "name":"greatest_dic_awared",
+    "path":"sprites/greatest_dic_awared/greatest_dic_awared.yy",
   },
   "spriteMaskId":null,
   "visible":true,
