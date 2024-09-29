@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"pass_bk",
+  "%Name":"obj_pass_ds",
   "eventList":[],
   "managed":true,
-  "name":"pass_bk",
+  "name":"obj_pass_ds",
   "overriddenProperties":[],
   "parent":{
-    "name":"iteams",
-    "path":"folders/Objects/book clues/iteams.yy",
+    "name":"descriptions",
+    "path":"folders/Objects/book clues/descriptions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pass_in",
-    "path":"sprites/pass_in/pass_in.yy",
+    "name":"pass_ds",
+    "path":"sprites/pass_ds/pass_ds.yy",
   },
   "spriteMaskId":null,
   "visible":true,

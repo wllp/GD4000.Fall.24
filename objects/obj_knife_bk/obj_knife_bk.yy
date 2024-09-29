@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"knife_bk",
+  "%Name":"obj_knife_bk",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"knife_bk",
+  "name":"obj_knife_bk",
   "overriddenProperties":[],
   "parent":{
     "name":"iteams",

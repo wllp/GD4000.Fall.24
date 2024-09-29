@@ -58,7 +58,7 @@ if place_meeting(x,y,obj_door)and !instance_exists(obj_interact_but)
 if !place_meeting(x,y,obj_door)
 {
 	instance_destroy(obj_interact_but)
-	show_debug_message("yes")
+
 }
 }
 

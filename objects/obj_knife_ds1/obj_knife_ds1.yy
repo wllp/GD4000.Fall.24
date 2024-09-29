@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cam_follow",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_knife_ds1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_cam_follow",
+  "name":"obj_knife_ds1",
   "overriddenProperties":[],
   "parent":{
-    "name":"manegers",
-    "path":"folders/Objects/manegers.yy",
+    "name":"descriptions",
+    "path":"folders/Objects/book clues/descriptions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stall",
-    "path":"sprites/cam_stall/cam_stall.yy",
+    "name":"knife_ds",
+    "path":"sprites/knife_ds/knife_ds.yy",
   },
   "spriteMaskId":null,
   "visible":true,

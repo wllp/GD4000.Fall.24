@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"knife_ds",
-  "eventList":[],
+  "%Name":"obj_pass_bk",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"knife_ds",
+  "name":"obj_pass_bk",
   "overriddenProperties":[],
   "parent":{
-    "name":"descriptions",
-    "path":"folders/Objects/book clues/descriptions.yy",
+    "name":"iteams",
+    "path":"folders/Objects/book clues/iteams.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"knife_ds1",
-    "path":"sprites/knife_ds1/knife_ds1.yy",
+    "name":"pass_in",
+    "path":"sprites/pass_in/pass_in.yy",
   },
   "spriteMaskId":null,
   "visible":true,
