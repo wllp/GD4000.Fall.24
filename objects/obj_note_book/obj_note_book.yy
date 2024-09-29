@@ -9,8 +9,8 @@
   "name":"obj_note_book",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"room_obj",
+    "path":"folders/Objects/room_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,

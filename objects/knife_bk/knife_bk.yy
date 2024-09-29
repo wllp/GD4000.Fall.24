@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_tab",
+  "%Name":"knife_bk",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_tab",
+  "name":"knife_bk",
   "overriddenProperties":[],
   "parent":{
-    "name":"tab maneger",
-    "path":"folders/Objects/manegers/tab maneger.yy",
+    "name":"iteams",
+    "path":"folders/Objects/book clues/iteams.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stop",
-    "path":"sprites/cam_stop/cam_stop.yy",
+    "name":"knife22",
+    "path":"sprites/knife22/knife22.yy",
   },
   "spriteMaskId":null,
   "visible":true,

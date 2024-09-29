@@ -8,8 +8,8 @@
   "name":"obj_knife_ds",
   "overriddenProperties":[],
   "parent":{
-    "name":"book clues",
-    "path":"folders/Objects/book clues.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

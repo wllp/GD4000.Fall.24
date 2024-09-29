@@ -8,8 +8,8 @@
   "name":"obj_pass_pu",
   "overriddenProperties":[],
   "parent":{
-    "name":"book clues",
-    "path":"folders/Objects/book clues.yy",
+    "name":"obj_pu_iteams",
+    "path":"folders/Objects/cluse/obj_pu_iteams.yy",
   },
   "parentObjectId":null,
   "persistent":false,

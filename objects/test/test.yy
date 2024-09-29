@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_tab",
+  "%Name":"test",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_tab",
+  "name":"test",
   "overriddenProperties":[],
   "parent":{
-    "name":"tab maneger",
-    "path":"folders/Objects/manegers/tab maneger.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
