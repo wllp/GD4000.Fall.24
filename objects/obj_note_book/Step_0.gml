@@ -23,6 +23,7 @@ room_goto(global.room);
 	 {
 		 instance_create_layer(434,90,"clues",obj_pass_bk)
 	 }
+	 instance_destroy(obj_player_pos)
  }
 if image_index = 1 
 {
