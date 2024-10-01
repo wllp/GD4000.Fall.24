@@ -1,2 +1,2 @@
   image_speed = 0;
-  image_index = 6; 
+  image_index = random_range(0, 8); 

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"companions",
-    "path":"folders/Objects/NPC's/companions.yy",
+    "path":"folders/Objects/character's/NPC's/companions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
