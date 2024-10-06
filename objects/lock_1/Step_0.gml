@@ -1,4 +1,4 @@
-if obj_briefcase_r.lock1 = true
+if obj_briefcase_r.lock1 == true
 {
 if keyboard_check_pressed(vk_up)
 {

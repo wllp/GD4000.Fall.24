@@ -1,2 +1,8 @@
+heavy_attack = -8
+light_attack = -4
+is_attaking=false
 health = 100
-attack_1 = -5
+if room = fightRoom
+{
+	is_attaking=true
+}
