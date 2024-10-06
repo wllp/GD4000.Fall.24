@@ -196,6 +196,7 @@
     {"name":"ChatterboxVariablesImport","order":9,"path":"scripts/ChatterboxVariablesImport/ChatterboxVariablesImport.yy",},
     {"name":"ChatterboxVariablesResetAll","order":10,"path":"scripts/ChatterboxVariablesResetAll/ChatterboxVariablesResetAll.yy",},
     {"name":"ChatterboxWait","order":9,"path":"scripts/ChatterboxWait/ChatterboxWait.yy",},
+    {"name":"functions","order":1,"path":"scripts/functions/functions.yy",},
     {"name":"IsChatterbox","order":5,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
     {"name":"back_but","order":11,"path":"sprites/back_but/back_but.yy",},
     {"name":"background","order":2,"path":"sprites/background/background.yy",},

@@ -243,6 +243,7 @@
     {"id":{"name":"ChatterboxVariablesResetAll","path":"scripts/ChatterboxVariablesResetAll/ChatterboxVariablesResetAll.yy",},},
     {"id":{"name":"ChatterboxWait","path":"scripts/ChatterboxWait/ChatterboxWait.yy",},},
     {"id":{"name":"Dialougue","path":"scripts/Dialougue/Dialougue.yy",},},
+    {"id":{"name":"functions","path":"scripts/functions/functions.yy",},},
     {"id":{"name":"IsChatterbox","path":"scripts/IsChatterbox/IsChatterbox.yy",},},
     {"id":{"name":"sfx_wind","path":"sounds/sfx_wind/sfx_wind.yy",},},
     {"id":{"name":"back_but","path":"sprites/back_but/back_but.yy",},},
