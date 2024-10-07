@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_text1",
+  "%Name":"obj_control",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_text1",
+  "name":"obj_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"text",
-    "path":"folders/Objects/text.yy",
+    "name":"Code",
+    "path":"folders/Code.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"text_old",
-    "path":"sprites/text_old/text_old.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

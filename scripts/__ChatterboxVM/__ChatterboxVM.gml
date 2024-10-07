@@ -11,6 +11,7 @@ function __ChatterboxVM()
         stopped          = false;
         waiting          = false;
         forced_waiting   = false;
+        waitingName      = "";
         wait_instruction = undefined;
         entered_option   = false;
         leaving_option   = false;
@@ -24,7 +25,7 @@ function __ChatterboxVM()
             return undefined;
         }
         
-        if ((current_instruction.type == "hopback") && (array_length(hopStack) <= 0))
+        if ((current_instruction.type == "hopback") && __HopEmpty())
         {
             stopped = true;
             if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace("STOP (<<hopback>>)");
@@ -241,9 +242,10 @@ function __ChatterboxVMInner(_instruction)
                                 &&  (_next.type != "wait")
                                 &&  (_next.type != "forcewait")
                                 &&  (_next.type != "stop")
-                                &&  !((_next.type == "hopback") && (array_length(hopStack) <= 0)))
+                                &&  !((_next.type == "hopback") && __HopEmpty()))
                                 {
                                     waiting          = true;
+                                    waitingName      = "";
                                     wait_instruction = _next;
                                 }
                             }
@@ -251,14 +253,16 @@ function __ChatterboxVMInner(_instruction)
                     break;
                     
                     case "wait":
-                        _system.__vmWait = true;
-                        if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<wait>>");
+                        _system.__vmWait     = true;
+                        _system.__vmWaitName = _instruction.waitName;
+                        if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<wait \"" + string(_system.__vmWaitName) + "\">>");
                     break;
                     
                     case "forcewait":
                         _system.__vmWait      = true;
                         _system.__vmForceWait = true;
-                        if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<forcewait>>");
+                        _system.__vmWaitName  = _instruction.waitName;
+                        if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<forcewait \"" + string(_system.__vmWaitName) + "\">>");
                     break;
                     
                     case "jump":
@@ -275,17 +279,14 @@ function __ChatterboxVMInner(_instruction)
                         switch(_instruction.type)
                         {
                             case "jump":
-                                if (array_length(hopStack) > 0) __ChatterboxTrace(__CHATTERBOX_DEBUG_VM? __ChatterboxGenerateIndent(_instruction.indent) : "", "Warning! Jumping to \"", _instruction.destination, "\" but hop stack has content. This may cause unexpected behaviour");
+                                if (not __HopEmpty())
+                                {
+                                    __ChatterboxTrace(__CHATTERBOX_DEBUG_VM? __ChatterboxGenerateIndent(_instruction.indent) : "", "Warning! Jumping to \"", _instruction.destination, "\" but hop stack has content. This may cause unexpected behaviour");
+                                }
                             break;
                             
                             case "hop":
-                                if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "Pushed \"", _next, "\" to hop stack");
-                                
-                                array_push(hopStack, {
-                                    next:     _next,
-                                    node:     current_node,
-                                    filename: filename,
-                                });
+                                __HopPush(_next);
                             break;
                         }
                         
@@ -305,7 +306,7 @@ function __ChatterboxVMInner(_instruction)
                             var _next_node = FindNode(_split.node);
                             if (_next_node == undefined) __ChatterboxError("Node \"", _split.node, "\" could not be found in \"", filename, "\"");
                             
-                            __ChangeNode(_next_node, true);
+                            __ChangeNode(_next_node, true, _instruction.type);
                             _next = _next_node.root_instruction;
                         }
                         else
@@ -319,7 +320,7 @@ function __ChatterboxVMInner(_instruction)
                                 _next_node = FindNode(_split.node);
                                 if (_next_node == undefined) __ChatterboxError("Node \"", _split.node, "\" could not be found in \"", _split.filename, "\"");
                                 
-                                __ChangeNode(_next_node, true);
+                                __ChangeNode(_next_node, true, _instruction.type);
                                 _next = _next_node.root_instruction;
                             }
                             else
@@ -331,13 +332,14 @@ function __ChatterboxVMInner(_instruction)
                     
                     case "stop":
                     case "hopback":
-                        if ((_instruction.type == "stop") || (array_length(hopStack) <= 0))
+                        if ((_instruction.type == "stop") || __HopEmpty())
                         {
                             //If there's nothing left in the hop stack, execute <<stop>> behaviour
                             
                             if (CHATTERBOX_WAIT_BEFORE_STOP && (array_length(content) > 0) && (array_length(option) <= 0))
                             {
                                 waiting          = true;
+                                waitingName      = "";
                                 forced_waiting   = true;
                                 wait_instruction = _instruction;
                             }
@@ -358,11 +360,10 @@ function __ChatterboxVMInner(_instruction)
                         else
                         {
                             //Otherwise pop a node off of our stack and go to it
-                            var _hop_data = hopStack[array_length(hopStack)-1];
+                            var _hop_data = __HopPop();
                             var _next     = _hop_data.next;
                             var _node     = _hop_data.node;
                             var _filename = _hop_data.filename;
-                            array_pop(hopStack);
                             
                             if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<hopback>>  -->  ", _next);
                             
@@ -375,7 +376,7 @@ function __ChatterboxVMInner(_instruction)
                             file     = _file;
                             filename = _file.filename;
                             
-                            __ChangeNode(_node, false);
+                            __ChangeNode(_node, false, "hopback");
                         }
                     break;
                     
@@ -447,15 +448,19 @@ function __ChatterboxVMInner(_instruction)
                         
                         if (is_string(_result))
                         {
+                            //TODO - Superceded by ChatterboxWait() / ChatterboxFastForward(). Remove in v3.0
+                            
                             if (_result == "<<wait>>")
                             {
-                                _system.__vmWait = true;
+                                _system.__vmWait     = true;
+                                _system.__vmWaitName = "";
                                 if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<wait>> returned by function");
                             }
                             else if (_result == "<<forcewait>>")
                             {
                                 _system.__vmWait      = true;
                                 _system.__vmForceWait = true;
+                                _system.__vmWaitName  = "";
                                 if (__CHATTERBOX_DEBUG_VM) __ChatterboxTrace(__ChatterboxGenerateIndent(_instruction.indent), "<<forcewait>> returned by function");
                             }
                             else if (_result == "<<fastforward>>")
@@ -526,10 +531,12 @@ function __ChatterboxVMInner(_instruction)
         
         waiting          = true;
         forced_waiting   = _system.__vmForceWait;
+        waitingName      = _system.__vmWaitName;
         wait_instruction = _instruction.next;
         
         _system.__vmWait      = false;
         _system.__vmForceWait = false;
+        _system.__vmWaitName  = "";
     }
     
     if (_system.__vmFastForward)

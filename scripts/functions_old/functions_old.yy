@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"functions",
+  "%Name":"functions_old",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"functions",
+  "name":"functions_old",
   "parent":{
-    "name":"Code",
-    "path":"folders/Code.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

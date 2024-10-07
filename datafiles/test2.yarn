@@ -6,7 +6,7 @@ title: Start
 ---
 <<bg(0)>>
 Player: What have your got for me?
-Broker: Word on the street is you looking for $item ?
+Broker: Word on the street is that you are looking for $item ?
 Player: See you still have your ear to the ground.
 Broker: Information is my trade! So what can I do for you?
     ->Who
@@ -17,36 +17,48 @@ Broker: Information is my trade! So what can I do for you?
         <<jump where>>
 ===
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 10,445
+__PrivCrochet_position: 8,443
 __PrivCrochet_tags: 
 title: who
 ---
+<<bg(0)>>
 Broker: Hard to say...
-Broker: Sure, we have the usual rift-raft and nardowells common to any respectable city.
+Broker: Sure, we have the usual rift-raft 
+and nardowells common to any respectable city.
 Broker:But, this feel... bigger than that.
 Broker:Tell you what, you sit tight and I will have my network do some digging.
 Broker: I will want compensation for all my efforts though.
 Player: You always do.
 Broker: Sorry slick, but being nice dosen't pay for rent you know.
 Broker: Was there anything else?
-#Have a way to jump back to other otpions.
+    ->Where
+        Player:Tell me what you know about where $item is?
+        <<jump where>>
+    ->No
+        <<jump Broker_end>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 289,445
 __PrivCrochet_tags: 
 title: where
 ---
+<<bg(0)>>
 Broker: If I were you, I would make my way to the markets down by the docks.
 Broker: Things that are lost tend to... "wash up" in that area if you know what I mean.
 Broker: Was there anything else?
-#Again have a way back
+    ->Where
+        Player:Tell me about what you know about potential suspects.
+        <<jump who>>
+    ->No
+        <<jump Broker_end>>
 ===
 __PrivCrochet_colorID: 0
 __PrivCrochet_position: 70,812
 __PrivCrochet_tags: 
-title: Broker end
+title: Broker_end
 ---
+<<bg(0)>>
 Broker: Well if thats all I got to get going.
 
-#Something...
+//Something...
 ===
