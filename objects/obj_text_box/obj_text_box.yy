@@ -6,17 +6,12 @@
   ],
   "managed":true,
   "name":"obj_text_box",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/button_parent/button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Text gose here",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"button_parent",
-    "path":"objects/button_parent/button_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

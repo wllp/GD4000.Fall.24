@@ -6,29 +6,10 @@ if is_attaking=false
 }
 
 
-if is_attaking=true
+if is_attaking=true and fight_room_maneger.enemy_turn= true
 {
-	if place_meeting(x,y,obj_attack_mouse)and mouse_check_button_pressed(mb_left)
-	{
-		if obj_attack_mouse.hit !=5 
-		{
-			if obj_attack_mouse.atk_type = 1
-			{
-				health += obj_attack_mouse.heavy_attack
-				show_debug_message(health)
-			}
-			if obj_attack_mouse.atk_type = 2
-			{
-				health += obj_attack_mouse.light_attack
-				show_debug_message(health)
-			}
-		}
-	if  obj_attack_mouse.hit ==5
-	{
-		show_debug_message("miss")
-	}
-	}
-
+	global.player_stats[0]-=10
+fight_room_maneger.enemy_turn= false
 }
 if health <=  0 
 {
