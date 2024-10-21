@@ -9,8 +9,8 @@
   "name":"heal_but",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"fight_but",
+    "path":"folders/Objects/buttons/fight_but.yy",
   },
   "parentObjectId":null,
   "persistent":false,

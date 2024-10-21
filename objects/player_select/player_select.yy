@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"defence_but",
+  "%Name":"player_select",
   "eventList":[],
   "managed":true,
-  "name":"defence_but",
+  "name":"player_select",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"manegers",
+    "path":"folders/Objects/manegers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stall",
-    "path":"sprites/cam_stall/cam_stall.yy",
+    "name":"door",
+    "path":"sprites/door/door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
