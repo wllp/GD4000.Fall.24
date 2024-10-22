@@ -1,5 +1,4 @@
 if keyboard_check_pressed(vk_enter)
 {
-	enemy_turn = true 
+	enemya.alarm[0] = 30
 }
-show_debug_message(global.player_stats[0])

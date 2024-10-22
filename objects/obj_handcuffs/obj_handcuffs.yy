@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"companion_2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_handcuffs",
+  "eventList":[],
   "managed":true,
-  "name":"companion_2",
+  "name":"obj_handcuffs",
   "overriddenProperties":[],
   "parent":{
-    "name":"companions",
-    "path":"folders/Objects/character's/NPC's/companions.yy",
+    "name":"items",
+    "path":"folders/Objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"person1",
-    "path":"sprites/person1/person1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,5 +1,5 @@
-heavy_attack = -8
-light_attack = -4
+heavy_attack = -5
+
 is_attaking=false
 hp = 100
 if room = fightRoom

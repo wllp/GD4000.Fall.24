@@ -19,6 +19,7 @@
     {"name":"cluse","order":8,"path":"folders/Objects/cluse.yy",},
     {"name":"Obj_in_iteams","order":1,"path":"folders/Objects/cluse/Obj_in_iteams.yy",},
     {"name":"obj_pu_iteams","order":2,"path":"folders/Objects/cluse/obj_pu_iteams.yy",},
+    {"name":"items","order":28,"path":"folders/Objects/items.yy",},
     {"name":"manegers","order":10,"path":"folders/Objects/manegers.yy",},
     {"name":"tab maneger","order":12,"path":"folders/Objects/manegers/tab maneger.yy",},
     {"name":"mouses","order":26,"path":"folders/Objects/mouses.yy",},

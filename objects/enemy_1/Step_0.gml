@@ -5,13 +5,6 @@ if is_attaking=false
 	room_goto(fightRoom)
 }
 
-
-if is_attaking=true and fight_room_maneger.enemy_turn= true
-{
-	global.player_stats[0]-=10
-fight_room_maneger.enemy_turn= false
-
-}
 if hp <=  0 
 {
 	instance_destroy(id)
