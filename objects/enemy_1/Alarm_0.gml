@@ -2,18 +2,18 @@
 if obj_strob.strob = true
 {
 	Which_person = strob_num;
-	show_debug_message("strob")
-	show_debug_message(Which_person)
+	//show_debug_message("strob")
+	//show_debug_message(Which_person)
 }
 else if def_but.def = true
 {
 	Which_person = def_num;
-	show_debug_message("def")
+	//show_debug_message("def")
 }
 else
 {
 Which_person = norm_num;
-show_debug_message("norm")
+//show_debug_message("norm")
 }
 if obj_handcuffs.handcuffs_on = true
 {
@@ -63,3 +63,5 @@ else
 }
 adid_go = true 
 show_debug_message("a")
+
+show_debug_message(adid_go)
