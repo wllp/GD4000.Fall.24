@@ -76,7 +76,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"test1",
   "resources":[
@@ -163,12 +163,12 @@
     {"id":{"name":"mainSt","path":"rooms/mainSt/mainSt.yy",},},
     {"id":{"name":"noteBook","path":"rooms/noteBook/noteBook.yy",},},
     {"id":{"name":"orcSt","path":"rooms/orcSt/orcSt.yy",},},
+    {"id":{"name":"rm_convo","path":"rooms/rm_convo/rm_convo.yy",},},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"id":{"name":"rm_help","path":"rooms/rm_help/rm_help.yy",},},
     {"id":{"name":"rm_safe","path":"rooms/rm_safe/rm_safe.yy",},},
     {"id":{"name":"rm_selector","path":"rooms/rm_selector/rm_selector.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"secretRoom","path":"rooms/secretRoom/secretRoom.yy",},},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
     {"id":{"name":"__ChatterboxArrayCopyPart","path":"scripts/__ChatterboxArrayCopyPart/__ChatterboxArrayCopyPart.yy",},},
@@ -351,7 +351,7 @@
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"noteBook","path":"rooms/noteBook/noteBook.yy",},},
     {"roomId":{"name":"secretRoom","path":"rooms/secretRoom/secretRoom.yy",},},
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_convo","path":"rooms/rm_convo/rm_convo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
