@@ -9,3 +9,4 @@ if hp <=  0
 {
 	instance_destroy(id)
 }
+alarm[3] = irandom(3)

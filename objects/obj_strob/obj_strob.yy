@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_handcuffs",
+  "%Name":"obj_strob",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_handcuffs",
+  "name":"obj_strob",
   "overriddenProperties":[],
   "parent":{
     "name":"items",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"handcuffs",
-    "path":"sprites/handcuffs/handcuffs.yy",
+    "name":"strob_light",
+    "path":"sprites/strob_light/strob_light.yy",
   },
   "spriteMaskId":null,
   "visible":true,

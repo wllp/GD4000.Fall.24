@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object62",
-  "eventList":[],
+  "%Name":"obj_donut",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object62",
+  "name":"obj_donut",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"items",
+    "path":"folders/Objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"dount",
+    "path":"sprites/dount/dount.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

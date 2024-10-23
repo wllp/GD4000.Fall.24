@@ -1,22 +1,47 @@
-Which_person = irandom(3)
-if hp> 50 and Which_person = 0
+
+if obj_strob.strob = true
 {
-	hp+=5
+	Which_person = strob_num;
+	show_debug_message("strob")
 }
-else if Which_person = 1
+else if def_but.def = true
 {
-	global.player_stats[0] -= irandom(6)+4
+	Which_person = def_num;
+	show_debug_message("def")
 }
-else if Which_person = 2
+else
 {
-	global.companion_1_stats[0] -= irandom(6)+4
+Which_person = norm_num;
+show_debug_message("norm")
 }
-else if Which_person = 3
+if obj_handcuffs.handcuffs_on = true
 {
-	global.companion_2_stats[0] -= irandom(6)+4
+	show_debug_message("skip")
+	enemyc.alarm[2] = 30
 }
-if hp< 50 and Which_person = 0
+else
 {
-	show_debug_message("miss")
+	show_debug_message("attack")
+	if hp< 50 and Which_person = 0
+	{
+		hp+=5
+	}
+	else if Which_person = 1
+	{
+		global.player_stats[0] -= irandom(attack)+4
+	}
+	else if Which_person = 2
+	{
+		global.companion_1_stats[0] -= irandom(attack)+4
+	}
+	else if Which_person = 3
+	{
+		global.companion_2_stats[0] -= irandom(attack)+4
+	}
+	if hp> 50 and Which_person <= 0
+	{
+		show_debug_message("miss")
+	}
+	attack = 6
+	enemyc.alarm[2] = 30
 }
-enemyc.alarm[2] = 30

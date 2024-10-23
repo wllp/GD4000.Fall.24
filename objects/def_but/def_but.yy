@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"iteam_but",
+  "%Name":"def_but",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"iteam_but",
+  "name":"def_but",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"fight_but",
+    "path":"folders/Objects/buttons/fight_but.yy",
   },
   "parentObjectId":null,
   "persistent":false,
