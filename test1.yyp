@@ -62,7 +62,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"test1",
   "resources":[
@@ -194,7 +194,7 @@
     {"id":{"name":"start","path":"sprites/start/start.yy",},},
     {"id":{"name":"strob_light","path":"sprites/strob_light/strob_light.yy",},},
     {"id":{"name":"tab_maneger","path":"sprites/tab_maneger/tab_maneger.yy",},},
-    {"id":{"name":"text","path":"sprites/text/text.yy",},},
+    {"id":{"name":"text_placeholder","path":"sprites/text_placeholder/text_placeholder.yy",},},
     {"id":{"name":"title_BG","path":"sprites/title_BG/title_BG.yy",},},
     {"id":{"name":"top_clouds_BG","path":"sprites/top_clouds_BG/top_clouds_BG.yy",},},
   ],

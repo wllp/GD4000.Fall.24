@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"text",
-    "path":"sprites/text/text.yy",
+    "name":"text_placeholder",
+    "path":"sprites/text_placeholder/text_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
