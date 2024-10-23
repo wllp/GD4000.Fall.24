@@ -1,4 +1,4 @@
-if obj_briefcase_r.lock1 = true
+if obj_briefcase_r.lock1 == true
 {
 if keyboard_check_pressed(vk_up)
 {
@@ -17,3 +17,4 @@ obj_briefcase_r.lock4 = false
 }
 }
 show_debug_message(image_index)
+

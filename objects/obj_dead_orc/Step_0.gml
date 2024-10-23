@@ -1,4 +1,4 @@
-if place_meeting(x,y,obj_player) and keyboard_check_pressed(ord("E"))
+if place_meeting(x,y,obj_player) and keyboard_check_pressed(ord("E"))//chenges into the dead orc room
 {
 	room_goto(Target_Room);
 	obj_player.x = Target_X;

@@ -6,8 +6,8 @@
   "name":"obj_player_pos",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"player",
+    "path":"folders/Objects/character's/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

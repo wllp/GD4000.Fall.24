@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"companions",
-    "path":"folders/Objects/NPC's/companions.yy",
+    "path":"folders/Objects/character's/NPC's/companions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite28",
+    "path":"sprites/Sprite28/Sprite28.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

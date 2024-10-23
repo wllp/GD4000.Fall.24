@@ -1,0 +1,1 @@
+which_enemy = noone

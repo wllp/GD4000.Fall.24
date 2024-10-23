@@ -1,4 +1,4 @@
-if is_busy= false
+if is_busy= false//checks if the player is doing something like talking
 {
 //move left
 if keyboard_check(ord("A"))or keyboard_check(vk_left)

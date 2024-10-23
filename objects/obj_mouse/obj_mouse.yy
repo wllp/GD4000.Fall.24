@@ -8,8 +8,8 @@
   "name":"obj_mouse",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"mouses",
+    "path":"folders/Objects/mouses.yy",
   },
   "parentObjectId":null,
   "persistent":false,
