@@ -2,17 +2,17 @@
 if obj_strob.strob = true
 {
 	Which_person = strob_num;
-	show_debug_message("strob")
+	//show_debug_message("strob")
 }
 else if def_but.def = true
 {
 	Which_person = def_num;
-	show_debug_message("def")
+	//show_debug_message("def")
 }
 else
 {
 Which_person = norm_num;
-show_debug_message("norm")
+//show_debug_message("norm")
 }
 if obj_handcuffs.handcuffs_on = true
 {
@@ -50,16 +50,21 @@ else
 		show_debug_message("miss")
 	}
 	attack = 6
-	if instance_exists(enemyc) and cdid_go == false
-	{
-		enemyc.alarm[2] = 30
-		cdid_go = true
-	}
-	else if instance_exists(enemya) and adid_go == false
-	{
-		enemya.alarm[0] = 30
-		adid_go = true
-	}
+if instance_exists(enemyc) and cdid_go = false
+{
+    enemyc.alarm[2] = 30;
+    cdid_go = true;
 }
-bdid_go = true
+else if instance_exists(enemya) and adid_go = false
+{
+    enemya.alarm[0] = 30;
+    adid_go = true;
+}
+bdid_go = true;
+attack = 6
+}
+
+
 show_debug_message("b")
+show_debug_message(id)
+show_debug_message(bdid_go)

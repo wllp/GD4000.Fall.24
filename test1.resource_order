@@ -144,7 +144,7 @@
     {"name":"start","order":12,"path":"sprites/start/start.yy",},
     {"name":"strob_light","order":40,"path":"sprites/strob_light/strob_light.yy",},
     {"name":"tab_maneger","order":15,"path":"sprites/tab_maneger/tab_maneger.yy",},
-    {"name":"text_placeholder","order":9,"path":"sprites/text_placeholder/text_placeholder.yy",},
+    {"name":"text","order":9,"path":"sprites/text/text.yy",},
     {"name":"title_BG","order":5,"path":"sprites/title_BG/title_BG.yy",},
     {"name":"top_clouds_BG","order":6,"path":"sprites/top_clouds_BG/top_clouds_BG.yy",},
   ],
