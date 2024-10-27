@@ -7,7 +7,7 @@ if obj_strob.strob = true
 else if def_but.def = true
 {
 	Which_person = def_num;
-	//show_debug_message("def")
+	show_debug_message("def")
 }
 else
 {

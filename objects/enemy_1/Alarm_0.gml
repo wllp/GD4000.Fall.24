@@ -1,4 +1,4 @@
-
+show_debug_message(string(def_but.def) + "hu");
 if obj_strob.strob = true
 {
 	Which_person = strob_num;
@@ -8,7 +8,7 @@ if obj_strob.strob = true
 else if def_but.def = true
 {
 	Which_person = def_num;
-	//show_debug_message("def")
+	show_debug_message("def")
 }
 else
 {

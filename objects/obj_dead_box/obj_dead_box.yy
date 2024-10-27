@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object64",
+  "%Name":"obj_dead_box",
   "eventList":[],
   "managed":true,
-  "name":"Object64",
+  "name":"obj_dead_box",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"dead_box",
+    "path":"sprites/dead_box/dead_box.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
