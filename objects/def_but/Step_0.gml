@@ -5,7 +5,9 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	{
 		def_1 = true;
 		global.player_stats[3] -= 10;
+        global.player_stats[2] += 5;
 		def_but.def = true;
+		
 	}
 	else if (global.player_stats[3] <= 0 && place_meeting(x, y, player_box))
 	{
@@ -17,6 +19,7 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	{
 		def_2 = true;
 		global.companion_1_stats[3] -= 10;
+		global.companion_1_stats[2] += 5;
 		def_but.def = true;
 	}
 	else if (global.companion_1_stats[3] <= 0 && place_meeting(x, y, companion_box1))
@@ -29,6 +32,7 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	{
 		def_3 = true;
 		global.companion_2_stats[3] -= 10;
+		global.companion_2_stats[2] += 5;
 		def_but.def = true;
 	}
 	else if (global.companion_2_stats[3] <= 0 && place_meeting(x, y, companion_box2))

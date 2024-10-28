@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object65",
+  "%Name":"player_check",
   "eventList":[],
   "managed":true,
-  "name":"Object65",
+  "name":"player_check",
   "overriddenProperties":[],
   "parent":{
-    "name":"mouses",
-    "path":"folders/Objects/mouses.yy",
+    "name":"manegers",
+    "path":"folders/Objects/manegers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"door",
+    "path":"sprites/door/door.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

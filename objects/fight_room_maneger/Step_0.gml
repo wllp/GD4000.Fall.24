@@ -19,14 +19,14 @@ if (!instance_exists(enemya) && !instance_exists(enemyb) && !instance_exists(ene
 {
     show_debug_message("you win!");
 }
-if enemy_1.adid_go = true and enemy_1.bdid_go = true and enemy_1.cdid_go = true
-{
-	enemy_turn = false
-	enemya.adid_go = false
-	enemyb.bdid_go = false
-	enemyc.cdid_go = false
+//if enemy_1.adid_go = true and enemy_1.bdid_go = true and enemy_1.cdid_go = true
+//{
+//	enemy_turn = false
+//	enemya.adid_go = false
+//	enemyb.bdid_go = false
+//	enemyc.cdid_go = false
 	
-}
+//}
 if global.player_stats[0] <=0
 {
 	with player_box

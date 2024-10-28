@@ -1,20 +1,18 @@
-if keyboard_check_pressed(ord("I"))
+if global.player_stats[2] >= global.newlevel_1 
 {
-global.playerx = obj_player.x
-global.playery = obj_player.y 
-room_goto(Target_Room);
-obj_player.x = Target_X;
-obj_player.y = Target_Y;
-room_goto(noteBook);
+	global.player_level+=1
+	global.player_points+=2
+	global.newlevel_1+=50
 }
-if keyboard_check_pressed(ord("M"))
+if global.companion_1_stats[2] >= global.newlevel_2
 {
-global.playerx = obj_player.x
-global.playery = obj_player.y 
-room_goto(Target_Room);
-obj_player.x = Target_X;
-obj_player.y = Target_Y;
-global.map = true
-room_goto(noteBook);
+	global.companion_1_level+=1
+	global.companion_1_points+=2
+	global.newlevel_2+=50
 }
-
+if global.companion_2_stats[2] >= global.newlevel_3
+{
+	global.companion_2_level+=1
+	global.companion_2_points+=2
+	global.newlevel_3+=50
+}

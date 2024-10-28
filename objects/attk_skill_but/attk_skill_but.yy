@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"player_select",
-  "eventList":[],
+  "%Name":"attk_skill_but",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"player_select",
+  "name":"attk_skill_but",
   "overriddenProperties":[],
   "parent":{
-    "name":"manegers",
-    "path":"folders/Objects/manegers.yy",
+    "name":"level_up_but",
+    "path":"folders/Objects/buttons/level_up_but.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"door",
-    "path":"sprites/door/door.yy",
+    "name":"cam_stall",
+    "path":"sprites/cam_stall/cam_stall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
