@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coffee",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pointer",
+  "eventList":[],
   "managed":true,
-  "name":"obj_coffee",
+  "name":"obj_pointer",
   "overriddenProperties":[],
   "parent":{
-    "name":"items",
-    "path":"folders/Objects/items.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"coffee",
-    "path":"sprites/coffee/coffee.yy",
+    "name":"pointer",
+    "path":"sprites/pointer/pointer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

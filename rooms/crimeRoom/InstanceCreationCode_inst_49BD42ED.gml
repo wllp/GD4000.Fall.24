@@ -1,4 +1,4 @@
 Target_Room = mainSt;
 
-Target_X = 391;
-Target_Y = 320;
+Target_X = 412;
+Target_Y = 395;

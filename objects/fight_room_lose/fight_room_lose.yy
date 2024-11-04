@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coffee",
+  "%Name":"fight_room_lose",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_coffee",
+  "name":"fight_room_lose",
   "overriddenProperties":[],
   "parent":{
-    "name":"items",
-    "path":"folders/Objects/items.yy",
+    "name":"manegers",
+    "path":"folders/Objects/manegers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"coffee",
-    "path":"sprites/coffee/coffee.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

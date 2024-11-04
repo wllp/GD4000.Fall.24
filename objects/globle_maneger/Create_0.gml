@@ -43,3 +43,5 @@ global.companion_2_points = 0
 global.newlevel_1 = 50
 global.newlevel_2 = 50
 global.newlevel_3 = 50
+
+global.enemy_1_beat = false
