@@ -10,3 +10,7 @@ instance_destroy(obj_pointer)
 instance_create_layer(which_enemy.x,which_enemy.y,"Instances_1",obj_pointer)
 
 }
+if !instance_exists(which_enemy)
+{
+	instance_destroy(obj_pointer)
+}
