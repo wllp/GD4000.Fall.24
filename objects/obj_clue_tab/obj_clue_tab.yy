@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"tab maneger",
-    "path":"folders/Objects/manegers/tab maneger.yy",
+    "path":"folders/Objects/buttons/tab maneger.yy",
   },
   "parentObjectId":null,
   "persistent":false,

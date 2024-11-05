@@ -6,7 +6,7 @@ global.has_pass = 0
 // Player stats array
 global.player_stats = [
     100, // player_health (index 0)
-    10,  // player_attack (index 1)
+    20,  // player_attack (index 1)
 	0,   // player_xp (index 2)
     50,  // player_mana (index 3)
 	10,  //player_heal(index 4)
@@ -16,9 +16,9 @@ global.player_stats = [
 // Companion 1 stats array
 global.companion_1_stats = [
     70,  // companion_1_health
-    5,   // companion_1_attack
+    15,   // companion_1_attack
 	0,	 //companion_1_xp
-    30,  // companion_1_mana
+    50,  // companion_1_mana
 	10,  // companion_1_heal
 
 ];
@@ -26,9 +26,9 @@ global.companion_1_stats = [
 // Companion 2 stats array
 global.companion_2_stats = [
     70,  // companion_2_health
-     5,  // companion_2_attack
+     15,  // companion_2_attack
 	 0,	 //companion_2_xp
-    30,  // companion_2_mana
+    50,  // companion_2_mana
 	10,  // companion_2_heal
 ];
 //window_set_fullscreen(true)

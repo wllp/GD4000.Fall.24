@@ -32,16 +32,24 @@ if image_index = 1
 	instance_destroy(obj_player_pos)
 	instance_create_layer(166,233,"clues",obj_player_pos)
 	show_debug_message("1a")
+	global.location1 = false
 	}
 	if global.location2 =true
 	{
 	instance_destroy(obj_player_pos)
 	instance_create_layer(360,240,"clues",obj_player_pos)
 	show_debug_message("2a")
+	global.location2 = false
 	}
 	instance_destroy(obj_knife_bk)
 	instance_destroy(obj_pass_bk)
 	instance_destroy(obj_knife_ds1)
 	instance_destroy(obj_pass_ds)
 	
+}
+if image_index = 2 and !instance_exists(mana_skill_but) and!instance_exists(attk_skill_but) and !instance_exists(health_skill_but)
+{
+	instance_create_layer(381,180,"clues",mana_skill_but)
+	instance_create_layer(381,200,"clues",attk_skill_but)
+	instance_create_layer(381,228,"clues",health_skill_but)
 }

@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_tab",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_next",
+  "eventList":[],
   "managed":true,
-  "name":"obj_map_tab",
+  "name":"obj_next",
   "overriddenProperties":[],
   "parent":{
-    "name":"tab maneger",
-    "path":"folders/Objects/buttons/tab maneger.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"cam_stop",
-    "path":"sprites/cam_stop/cam_stop.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

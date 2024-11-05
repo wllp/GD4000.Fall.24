@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_tab",
+  "%Name":"obj_items",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_tab",
+  "name":"obj_items",
   "overriddenProperties":[],
   "parent":{
     "name":"tab maneger",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stop",
-    "path":"sprites/cam_stop/cam_stop.yy",
+    "name":"tab_maneger",
+    "path":"sprites/tab_maneger/tab_maneger.yy",
   },
   "spriteMaskId":null,
   "visible":true,

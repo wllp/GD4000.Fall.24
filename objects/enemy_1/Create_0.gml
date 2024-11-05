@@ -1,4 +1,4 @@
-attack = 6
+attack = 15
 Which_person = 0
 is_attaking=false
 hp = 100
