@@ -62,4 +62,6 @@ if !place_meeting(x,y,obj_door)
 }
 }
 
-
+if (room==mainSt) {
+	global.room_start_accessed = true; 
+}
