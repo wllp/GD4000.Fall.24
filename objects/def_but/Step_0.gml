@@ -3,10 +3,10 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	// Check for player mana and set defense flag
 	if (place_meeting(x, y, player_box) && global.player_stats[3] >= 10)
 	{
-		def_1 = true;
+		def_num[0] = true ;
+		def_but.def = true;
 		global.player_stats[3] -= 10;
         global.player_stats[2] += 5;
-		def_but.def = true;
 		
 	}
 	else if (global.player_stats[3] <= 0 && place_meeting(x, y, player_box))
@@ -17,10 +17,11 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	// Check for companion 1 mana and set defense flag
 	if (place_meeting(x, y, companion_box1) && global.companion_1_stats[3] >= 10)
 	{
-		def_2 = true;
+		def_num[1] = true ;
+		def_but.def = true;
 		global.companion_1_stats[3] -= 10;
 		global.companion_1_stats[2] += 5;
-		def_but.def = true;
+
 	}
 	else if (global.companion_1_stats[3] <= 0 && place_meeting(x, y, companion_box1))
 	{
@@ -30,10 +31,11 @@ if (place_meeting(x, y, obj_mouse1) && mouse_check_button_pressed(mb_left))
 	// Check for companion 2 mana and set defense flag
 	if (place_meeting(x, y, companion_box2) && global.companion_2_stats[3] >= 10)
 	{
-		def_3 = true;
+		def_num[2] = true;
+		def_but.def = true;
 		global.companion_2_stats[3] -= 10;
 		global.companion_2_stats[2] += 5;
-		def_but.def = true;
+
 	}
 	else if (global.companion_2_stats[3] <= 0 && place_meeting(x, y, companion_box2))
 	{
