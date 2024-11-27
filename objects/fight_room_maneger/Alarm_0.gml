@@ -1,2 +1,3 @@
-which_person = irandom_range(0,3)
+which_person = irandom(2)
 random_add = irandom(4)
+alarm[0]=1

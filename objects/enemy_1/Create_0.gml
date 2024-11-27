@@ -7,10 +7,9 @@ norm_num = 0
 attack_num =6
 heal = 10
 is_going = true
-
 has_gone = 0 
-enemy = [enemya,enemyb,enemyc]
 i=0
+special_attk = 5
 if room = fightRoom
 {
 	is_attaking=true

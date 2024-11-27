@@ -92,6 +92,8 @@
     {"id":{"name":"def_but","path":"objects/def_but/def_but.yy",},},
     {"id":{"name":"destroy_items","path":"objects/destroy_items/destroy_items.yy",},},
     {"id":{"name":"enemy_1","path":"objects/enemy_1/enemy_1.yy",},},
+    {"id":{"name":"enemy_2","path":"objects/enemy_2/enemy_2.yy",},},
+    {"id":{"name":"enemy_3","path":"objects/enemy_3/enemy_3.yy",},},
     {"id":{"name":"fight_room_lose","path":"objects/fight_room_lose/fight_room_lose.yy",},},
     {"id":{"name":"fight_room_maneger","path":"objects/fight_room_maneger/fight_room_maneger.yy",},},
     {"id":{"name":"fight_room_win","path":"objects/fight_room_win/fight_room_win.yy",},},
