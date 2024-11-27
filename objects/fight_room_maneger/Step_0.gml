@@ -1,85 +1,96 @@
-if keyboard_check_pressed(vk_enter)
+if keyboard_check_pressed(vk_enter) and enemy_turn = false
 {
 	enemy_turn = true
-    if instance_exists(enemya)
-    {
-        enemya.alarm[0] = 30;
-    }
-    else if instance_exists(enemyb)
-    {
-        enemyb.alarm[1] = 30;
-    }
-    else if instance_exists(enemyc)
-    {
-        enemyc.alarm[2] = 30;
-    }
 }
+alarm[0] = irandom(4)
 
-if (!instance_exists(enemya) && !instance_exists(enemyb) && !instance_exists(enemyc))
-{
-    show_debug_message("you win!");
-	win = true
-	global.enemy_1_beat = true
-}
 
-if (!instance_exists(companion_1) && !instance_exists(companion_2) && !instance_exists(obj_player_attacking))
+function fight()
 {
-	show_debug_message("you lose")
-	lose = true
-	
-}
-
-if instance_exists(enemy_1) and enemy_1.adid_go = true and enemy_1.bdid_go = true and enemy_1.cdid_go = true
-{
-	//enemy_turn = false
-	//enemya.adid_go = false
-	//enemyb.bdid_go = false
-	//enemyc.cdid_go = false
-	obj_handcuffs.handcuffs_on = false
-	obj_strob.strob = false
-	def_but.def_1 = false
-	def_but.def_2 = false
-	def_but.def_3 = false
-	def_but.def = false
-	global.player_stats[3] = 100
-	global.companion_1_stats[3] = 100
-	global.companion_2_stats[3] = 100
-	
-}
-	global.player_stats[3] = 100
-
-if !instance_exists(companion_1) 
-{
-	instance_destroy(com_1)
-}
-if !instance_exists(companion_2)
-{
-	instance_destroy(com_2)
-}
-
-if global.player_stats[0] <=0
-{
-	with player_box
+	if enemy_turn == true and is_going == true and has_gone < array_length(enemy)
 	{
-		instance_change(obj_dead_box,true)
-	}
-	instance_destroy(obj_player_attacking)
+		//show_debug_message(string(is_going)+"moreout")
+			for (i = 0; i < array_length(enemy); i++)
+			{
+				has_gone++
+				//show_debug_message(string(is_going)+"out")
+				show_debug_message("i "+string(i))
+				show_debug_message("has gone"+string(has_gone))
+				if obj_handcuffs.handcuffs_on = true
+				{
+					fight();
+				}
+				if !instance_exists(enemy[i])
+				{
+					//show_debug_message("hello")
+					fight();
+					
+				}
+				if enemy[i].hp<irandom_range(30,50)
+				{
+					enemy[i].hp+=heal;
+				}
+				else
+				{
+					if which_person =0
+					{
+						is_going = false
+						alarm[1] = 100
+						player1();
+					}
+					else if which_person = 1
+					{
+						is_going = false
+						//show_debug_message(string(is_going)+"in")
+						alarm[1] = 100
+						companion1();
+					}
+					else if which_person = 2
+					{
+						is_going = false
+						//show_debug_message(string(is_going)+"in")
+						alarm[1] = 100
+						companion2();
+					}	
+		
+					
+			}
+	is_going = false
+	alarm[1] = 100
+		}
 }
-if global.companion_1_stats[0] <=0
-{
-	with companion_box1
-	{
-	instance_change(obj_dead_box,true)
-	}
-	instance_destroy(companion_1)
 }
-if global.companion_2_stats[0] <=0
+
+function player1()
 {
-	with companion_box2
-	{
-	instance_change(obj_dead_box,true)
-	}
-	instance_destroy(companion_2)
+	show_debug_message("hello")
+	global.player_stats[0] -= attack_num;
+	fight();
+}
+function companion1()
+{
+	show_debug_message("no")
+	fight();
+}
+function companion2()
+{
+	show_debug_message("bye")
+	fight();
+}
+
+
+
+if (enemy_1.is_attaking == true) 
+{
+    fight(); 
+	//show_debug_message("is going"+string(is_going))
+	//show_debug_message(fight_room_maneger.enemy_turn)
+}
+if has_gone ==  array_length(enemy)
+{
+	enemy_turn = false
+	has_gone = 0
+	show_debug_message("hi")
 }
 
 
