@@ -12,6 +12,8 @@ function fight()
 		//show_debug_message(string(is_going)+"moreout")
 			for (i = 0; i < array_length(enemy); i++)
 			{
+				//show_debug_message(string(enemy[i])+ string(i))
+				enemy[i].attack_num = irandom_range(enemy[i].attack,enemy[i].attack+random_add)
 				has_gone++
 				//show_debug_message(string(is_going)+"out")
 				show_debug_message("i "+string(i))
@@ -64,7 +66,7 @@ function fight()
 function player1()
 {
 	show_debug_message("hello")
-	global.player_stats[0] -= attack_num;
+	global.player_stats[0] -= enemy[i].attack_num;
 	fight();
 }
 function companion1()

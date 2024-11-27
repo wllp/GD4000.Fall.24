@@ -6,3 +6,4 @@ has_gone = 0
 enemy = [enemya,enemyb,enemyc]
 i=0
 which_person = 0
+random_add = 0
