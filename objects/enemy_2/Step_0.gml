@@ -11,5 +11,13 @@ if is_attaking=false
 
 if hp <=  0 
 {
+
+
 	instance_destroy(id)
+}
+if special_attk = true
+{
+	global.player_stats[0] -= special_attk
+	global.companion_1_stats[0] -= special_attk
+	global.companion__stats[0] -= special_attk
 }

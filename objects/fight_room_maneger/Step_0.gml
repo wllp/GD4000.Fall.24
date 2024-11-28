@@ -28,6 +28,7 @@ function fight()
 					//show_debug_message("hello"
 					
 				}
+				
 				//show_debug_message(string(enemy[i])+ string(i))
 				enemy[i].attack_num = irandom_range(enemy[i].attack,enemy[i].attack+random_add)
 				//show_debug_message(string(is_going)+"out")
@@ -75,6 +76,8 @@ function fight()
 }
 }
 
+
+
 function player1()
 {
 	show_debug_message(big_attk)
@@ -83,15 +86,19 @@ function player1()
 	{
 		alarm[1] = 30
 	}
-	if def_but.def = true and def_but.def_num[0] = true
+	if miss_attk = 3
+	{
+		alarm[1] = 50
+	}
+	if strob_hit = 2 and obj_strob.strob = true
+	{
+		alarm[1] = 50
+	}
+	else if def_but.def = true and def_but.def_num[0] = true
 	{
 		global.player_stats[0] -= (enemy[i].attack_num+def_attk);
 		show_debug_message("def")
 		alarm[1]=50
-	}
-	else if miss_attk = 3
-	{
-		alarm[1] = 50
 	}
 	else if big_attk = 5 and enemy[i].big_attk_done= false
 	{
@@ -106,19 +113,90 @@ function player1()
 	show_debug_message("hello")
 	global.player_stats[0] -= enemy[i].attack_num;
 	}
-	
-
 }
+
+
+
+
 function companion1()
 {
-	alarm[1] = 50
-	show_debug_message("no")
+		show_debug_message(big_attk)
+		show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+	if obj_handcuffs.handcuffs_on
+	{
+		alarm[1] = 30
+	}
+	if miss_attk = 3
+	{
+		alarm[1] = 50
+	}
+	if strob_hit = 2 and obj_strob.strob = true
+	{
+		strob_count++
+		alarm[1] = 50
+	}
+	else if def_but.def = true and def_but.def_num[0] = true
+	{
+		global.companion_1_stats[0] -= (enemy[i].attack_num+def_attk);
+		show_debug_message("def")
+		alarm[1]=50
+	}
 
+	else if big_attk = 5 and enemy[i].big_attk_done= false
+	{
+		enemy[i].special_attk_bool = true
+		show_debug_message("attk")
+		alarm[1] = 50
+	}
+	else
+	{
+	alarm[1] = 50
+	//show_debug_message(string(is_going)+"moreout")
+	show_debug_message("hello")
+	global.companion_1_stats[0] -= enemy[i].attack_num;
+	}
 }
+
+
+
+
 function companion2()
 {
+			show_debug_message(big_attk)
+		show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+	if obj_handcuffs.handcuffs_on
+	{
+		alarm[1] = 30
+	}
+	if miss_attk = 3
+	{
+		alarm[1] = 50
+	}
+	if strob_hit = 2 and obj_strob.strob = true
+	{
+		strob_count++
+		alarm[1] = 50
+	}
+	else if def_but.def = true and def_but.def_num[0] = true
+	{
+		global.companion_2_stats[0] -= (enemy[i].attack_num+def_attk);
+		show_debug_message("def")
+		alarm[1]=50
+	}
+
+	else if big_attk = 5 and enemy[i].big_attk_done= false
+	{
+		enemy[i].special_attk_bool = true
+		show_debug_message("attk")
+		alarm[1] = 50
+	}
+	else
+	{
 	alarm[1] = 50
-	show_debug_message("bye")
+	//show_debug_message(string(is_going)+"moreout")
+	show_debug_message("hello")
+	global.companion_2_stats[0] -= enemy[i].attack_num;
+	}
 }
 
 
@@ -134,6 +212,13 @@ if has_gone ==  array_length(enemy) or i = 2
 	enemy_turn = false
 	has_gone = 0
 	i= -1
+	strob_count++
+	show_debug_message(strob_count)
+	if strob_count <= 3
+	{
+		obj_strob.strob = false
+		strob_count = 0
+	}
 	show_debug_message("hi")
 }
 

@@ -67,7 +67,6 @@
     {"name":"def_but","order":2,"path":"objects/def_but/def_but.yy",},
     {"name":"destroy_items","order":3,"path":"objects/destroy_items/destroy_items.yy",},
     {"name":"enemy_2","order":1,"path":"objects/enemy_2/enemy_2.yy",},
-    {"name":"enemy_3","order":2,"path":"objects/enemy_3/enemy_3.yy",},
     {"name":"fight_room_lose","order":14,"path":"objects/fight_room_lose/fight_room_lose.yy",},
     {"name":"fight_room_maneger","order":10,"path":"objects/fight_room_maneger/fight_room_maneger.yy",},
     {"name":"fight_room_win","order":13,"path":"objects/fight_room_win/fight_room_win.yy",},

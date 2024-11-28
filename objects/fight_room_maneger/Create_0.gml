@@ -10,5 +10,7 @@ random_add = 0
 def_attk =0
 big_attk = 0
 miss_attk = 0
+strob_hit = 0
+strob_count = 0
 alarm[0] = 1
 alarm[2] = 1
