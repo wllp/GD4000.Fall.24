@@ -46,3 +46,10 @@ global.newlevel_3 = 50
 
 global.enemy_1_beat = false
 global.win= false 
+global.coins = 0
+
+global.has_bomb = false
+global.has_coffe = false
+global.has_dount = false
+global.has_handcuffs = false
+global.has_strob = false
