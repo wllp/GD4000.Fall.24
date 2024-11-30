@@ -45,3 +45,4 @@ global.newlevel_2 = 50
 global.newlevel_3 = 50
 
 global.enemy_1_beat = false
+global.win= false 

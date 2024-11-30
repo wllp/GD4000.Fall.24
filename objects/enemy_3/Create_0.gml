@@ -1,9 +1,9 @@
-attack = 15
+attack = 30
 is_attaking=false
-hp =50
-heal = 25
+hp = 200
+heal = 30
 special_attk_bool = false
-special_attk = 50
+special_attk = "lower def" 
 big_attk_done = false
 random_pick=0
 if room = fightRoom

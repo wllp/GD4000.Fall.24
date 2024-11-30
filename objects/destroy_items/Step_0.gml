@@ -6,3 +6,4 @@ if global.has_pass = 1
 {
 	instance_destroy(obj_pass_in)
 }
+instance_destroy(obj_player_attacking)

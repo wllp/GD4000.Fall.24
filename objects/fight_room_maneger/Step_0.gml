@@ -3,13 +3,48 @@ if keyboard_check_pressed(vk_enter) and enemy_turn = false
 	enemy_turn = true
 }
 
+if global.player_stats[0] <= 0
+{
+	instance_destroy(obj_player_attacking)
+	with player_box
+	{
+		instance_change(obj_dead_box,true)
+	}
+}
+
+if global.companion_1_stats[0] <= 0
+{
+	instance_destroy(companion_1)
+	with companion_box1
+	{
+		instance_change(obj_dead_box,true)
+	}
+}
+
+if global.companion_2_stats[0] <= 0
+{
+	instance_destroy(companion_2)
+	with companion_box2
+	{
+		instance_change(obj_dead_box,true)
+	}
+}
 
 
+if !instance_exists(enemya) and !instance_exists(enemyb) and !instance_exists(enemyc)
+{
+ win = true
+}
+
+if !instance_exists(companion_1) and !instance_exists(companion_2) and !instance_exists(obj_player_attacking)
+{
+	lose = true
+}
 function fight()
 {
 
 	
-	if enemy_turn == true and is_going == true and has_gone < array_length(enemy)
+	if enemy_turn == true and has_gone < array_length(enemy)
 	{
 		i++
 		//show_debug_message(string(is_going)+"moreout")
@@ -201,7 +236,7 @@ function companion2()
 
 
 
-if (enemy_1.is_attaking == true) 
+if  is_going == true 
 {
     fight(); 
 	//show_debug_message("is going"+string(is_going))
