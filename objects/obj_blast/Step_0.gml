@@ -17,6 +17,9 @@ if hp <=  0
 }
 if special_attk = true
 {
-	fight_room_maneger.group_health[0,1,2] =- special_attk
-	fight_room_maneger.enemy[0,1,2] =- (special_attk+5)
+	while i <= 2
+	{
+	fight_room_maneger.group_health[i] =- special_attk
+	fight_room_maneger.enemy[i] =- (special_attk+5)
+	}
 }

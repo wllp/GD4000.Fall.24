@@ -16,7 +16,3 @@ if global.companion_2_stats[2] >= global.newlevel_3
 	global.companion_2_points+=2
 	global.newlevel_3+=50
 }
-if 	global.win = true
-{
-	instance_destroy(obj_norm)
-}

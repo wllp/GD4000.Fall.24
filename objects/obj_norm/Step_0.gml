@@ -17,6 +17,6 @@ if hp <=  0
 }
 if special_attk = true
 {
-fight_room_maneger. group_health -= special_attk
+fight_room_maneger. group_health[random_pick] -= special_attk
 
 }

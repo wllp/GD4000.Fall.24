@@ -16,6 +16,9 @@ if hp <=  0
 	instance_destroy(id)
 }
 if special_attk = true
-{
-	fight_room_maneger.enemy[0,1,2] += (special_attk)
+{ 
+	while i <= 2
+	{
+	fight_room_maneger.enemy[i] += (special_attk)
+	}
 }

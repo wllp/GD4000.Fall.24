@@ -6,6 +6,7 @@ special_attk_bool = false
 special_attk = 25 //heals team
 big_attk_done = false
 random_pick=0
+i = 0 
 if room = fightRoom
 {
 	is_attaking=true

@@ -11,11 +11,9 @@ if is_attaking=false
 
 if hp <=  0 
 {
-
-
+	while i <= 2
+	{
+		fight_room_maneger.group_health[i]=-special_attk
+	}
 	instance_destroy(id)
-}
-if special_attk = true
-{
-	fight_room_maneger.group_health[random_pick]=-50
 }
