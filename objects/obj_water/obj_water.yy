@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"strob_light",
-    "path":"sprites/strob_light/strob_light.yy",
+    "name":"water",
+    "path":"sprites/water/water.yy",
   },
   "spriteMaskId":null,
   "visible":true,

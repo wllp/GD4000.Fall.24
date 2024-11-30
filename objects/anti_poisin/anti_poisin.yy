@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"strob_light",
-    "path":"sprites/strob_light/strob_light.yy",
+    "name":"anti_posin",
+    "path":"sprites/anti_posin/anti_posin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

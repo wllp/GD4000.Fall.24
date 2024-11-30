@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"knife",
-    "path":"sprites/knife/knife.yy",
+    "name":"water",
+    "path":"sprites/water/water.yy",
   },
   "spriteMaskId":null,
   "visible":true,
