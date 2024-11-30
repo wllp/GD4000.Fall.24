@@ -17,5 +17,5 @@ if hp <=  0
 }
 if special_attk = true
 {
-	fight_room_maneger.group_health[random_pick]=-50
+	fight_room_maneger.enemy[0,1,2] += (special_attk)
 }

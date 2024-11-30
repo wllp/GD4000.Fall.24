@@ -121,11 +121,11 @@ function player1()
 	{
 		alarm[1] = 30
 	}
-	if miss_attk = 3
+	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	if strob_hit = 2 and obj_strob.strob = true
+	else if strob_hit = 2 and obj_strob.strob = true
 	{
 		alarm[1] = 50
 	}
@@ -161,11 +161,11 @@ function companion1()
 	{
 		alarm[1] = 30
 	}
-	if miss_attk = 3
+	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	if strob_hit = 2 and obj_strob.strob = true
+	else if strob_hit = 2 and obj_strob.strob = true
 	{
 		strob_count++
 		alarm[1] = 50
@@ -203,11 +203,11 @@ function companion2()
 	{
 		alarm[1] = 30
 	}
-	if miss_attk = 3
+	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	if strob_hit = 2 and obj_strob.strob = true
+	else if strob_hit = 2 and obj_strob.strob = true
 	{
 		strob_count++
 		alarm[1] = 50

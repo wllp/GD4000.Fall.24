@@ -1,2 +1,2 @@
 enemy = noone
-enemy_1.enemy = true
+obj_norm.enemy = true

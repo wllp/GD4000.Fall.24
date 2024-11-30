@@ -18,5 +18,5 @@ if global.companion_2_stats[2] >= global.newlevel_3
 }
 if 	global.win = true
 {
-	instance_destroy(enemy_1)
+	instance_destroy(obj_norm)
 }
