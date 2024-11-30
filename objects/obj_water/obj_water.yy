@@ -3,13 +3,14 @@
   "%Name":"obj_water",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_water",
   "overriddenProperties":[],
   "parent":{
-    "name":"in shop",
-    "path":"folders/Objects/items/in shop.yy",
+    "name":"items",
+    "path":"folders/Objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"strob_light",
+    "path":"sprites/strob_light/strob_light.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

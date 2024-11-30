@@ -53,3 +53,7 @@ global.has_coffe = false
 global.has_dount = false
 global.has_handcuffs = false
 global.has_strob = false
+global.has_anti_poisin = false
+global.has_water = false
+global.water_count = 0
+global.anti_poisin_count = 0

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_water_shop",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_water_shop",
   "overriddenProperties":[],
   "parent":{
-    "name":"items",
-    "path":"folders/Objects/items.yy",
+    "name":"in shop",
+    "path":"folders/Objects/items/in shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"knife",
+    "path":"sprites/knife/knife.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

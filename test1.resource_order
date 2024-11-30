@@ -134,7 +134,7 @@
     {"name":"obj_strob","order":3,"path":"objects/obj_strob/obj_strob.yy",},
     {"name":"obj_text_box","order":18,"path":"objects/obj_text_box/obj_text_box.yy",},
     {"name":"obj_water_shop","order":6,"path":"objects/obj_water_shop/obj_water_shop.yy",},
-    {"name":"obj_water","order":6,"path":"objects/obj_water/obj_water.yy",},
+    {"name":"obj_water","order":8,"path":"objects/obj_water/obj_water.yy",},
     {"name":"Object4_1","order":3,"path":"objects/Object4_1/Object4_1.yy",},
     {"name":"Object4","order":2,"path":"objects/Object4/Object4.yy",},
     {"name":"player_check","order":11,"path":"objects/player_check/player_check.yy",},
@@ -251,6 +251,7 @@
     {"name":"ChatterboxWait","order":9,"path":"scripts/ChatterboxWait/ChatterboxWait.yy",},
     {"name":"functions_old","order":1,"path":"scripts/functions_old/functions_old.yy",},
     {"name":"IsChatterbox","order":6,"path":"scripts/IsChatterbox/IsChatterbox.yy",},
+    {"name":"anti_posin","order":46,"path":"sprites/anti_posin/anti_posin.yy",},
     {"name":"back_but","order":9,"path":"sprites/back_but/back_but.yy",},
     {"name":"background","order":2,"path":"sprites/background/background.yy",},
     {"name":"backgrounds","order":37,"path":"sprites/backgrounds/backgrounds.yy",},
@@ -306,5 +307,6 @@
     {"name":"title_BG","order":5,"path":"sprites/title_BG/title_BG.yy",},
     {"name":"top_clouds_BG","order":6,"path":"sprites/top_clouds_BG/top_clouds_BG.yy",},
     {"name":"wall_map","order":1,"path":"sprites/wall_map/wall_map.yy",},
+    {"name":"water","order":47,"path":"sprites/water/water.yy",},
   ],
 }
