@@ -1,2 +1,2 @@
-bomb_tool = false
+strob = false
 used = false

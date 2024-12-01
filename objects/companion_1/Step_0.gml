@@ -1,0 +1,1 @@
+health_bar = global.companion_1_stats[0]/global.companion_1_stats[5]*100

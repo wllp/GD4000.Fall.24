@@ -3,7 +3,16 @@ win = false
 lose = false
 is_going = true
 has_gone = 0 
-enemy = [enemya,enemyb,enemyc]
+if !instance_exists(enemya) and !instance_exists(enemyb)
+	enemy = [enemya]
+else if !instance_exists(enemyc) 
+{
+	enemy = [enemya,enemyb]
+}
+else  
+{
+	enemy = [enemya,enemyb,enemyc]
+}
 i= -1
 which_person = 0
 random_add = 0

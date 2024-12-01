@@ -1,2 +1,2 @@
-heavy_attack = -10
-light_attack = -5
+
+health_bar = 0
