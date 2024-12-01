@@ -244,11 +244,13 @@ if  is_going == true
 }
 if has_gone ==  array_length(enemy) or i = 2
 {
+	global.player_stats[3] = global.player_stats[6]
+	global.companion_1_stats[3] = global.companion_1_stats[6]
+	global.companion_2_stats[6] = global.companion_2_stats[6]
 	enemy_turn = false
 	has_gone = 0
 	i= -1
 	strob_count++
-	show_debug_message(strob_count)
 	if strob_count <= 3
 	{
 		obj_strob.strob = false

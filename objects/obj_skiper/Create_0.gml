@@ -1,7 +1,9 @@
 attack = 10
 is_attaking=false
 hp =150
+max_hp = 150
 heal = 25
+health_bar = 0
 special_attk_bool = false
 special_attk = "skip"
 big_attk_done = false

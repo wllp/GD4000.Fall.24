@@ -22,3 +22,4 @@ if special_attk = true
 	fight_room_maneger.enemy[i] += (special_attk)
 	}
 }
+health_bar = hp/max_hp*100

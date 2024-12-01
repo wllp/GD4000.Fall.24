@@ -17,3 +17,4 @@ if hp <=  0
 	}
 	instance_destroy(id)
 }
+health_bar = hp/max_hp*100

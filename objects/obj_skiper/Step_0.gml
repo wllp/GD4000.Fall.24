@@ -19,3 +19,4 @@ if special_attk = true
 {
 	fight_room_maneger.group_health[random_pick]=-50
 }
+health_bar = hp/max_hp*100

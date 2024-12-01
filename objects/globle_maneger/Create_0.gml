@@ -10,7 +10,8 @@ global.player_stats = [
 	0,   // player_xp (index 2)
     50,  // player_mana (index 3)
 	10,  //player_heal(index 4)
-	100 // max health
+	100, // max health (index 5)
+	50, // max mana (index 6)
 	
 
 ];
@@ -23,6 +24,7 @@ global.companion_1_stats = [
     50,  // companion_1_mana
 	10,  // companion_1_heal
 	70,  // max health
+	50, // max mana
 
 ];
 
@@ -34,6 +36,7 @@ global.companion_2_stats = [
     50,  // companion_2_mana
 	10,  // companion_2_heal
 	70,  // max health
+	50, // max mana
 ];
 //window_set_fullscreen(true)
 global.player_level = 0
