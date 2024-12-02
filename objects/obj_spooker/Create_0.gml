@@ -8,7 +8,7 @@ special_attk = "lower def"
 big_attk_done = false
 random_pick=0
 health_bar = 0
-if room = fightRoom
+if room = room_level_1
 {
 	is_attaking=true
 }

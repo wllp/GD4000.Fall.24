@@ -8,7 +8,7 @@ special_attk_bool = false
 special_attk = "makes every ones attack stronger" 
 big_attk_done = false
 random_pick=0
-if room = fightRoom
+if room = room_level_1
 {
 	is_attaking=true
 }

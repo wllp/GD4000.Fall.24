@@ -9,7 +9,7 @@ special_attk = 20
 big_attk_done = false
 alarm = 0
 random_pick=0
-if room = fightRoom
+if room = room_level_1
 {
 	is_attaking=true
 }
