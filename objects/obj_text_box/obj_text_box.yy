@@ -8,8 +8,8 @@
   "name":"obj_text_box",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"not needed things",
+    "path":"folders/Objects/not needed things.yy",
   },
   "parentObjectId":null,
   "persistent":false,

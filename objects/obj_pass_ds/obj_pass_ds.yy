@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"descriptions",
-    "path":"folders/Objects/book clues/descriptions.yy",
+    "path":"folders/Objects/not needed things/book clues/descriptions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"note_book_maneger",
   "overriddenProperties":[],
   "parent":{
-    "name":"manegers",
-    "path":"folders/Objects/manegers.yy",
+    "name":"not needed things",
+    "path":"folders/Objects/not needed things.yy",
   },
   "parentObjectId":null,
   "persistent":false,

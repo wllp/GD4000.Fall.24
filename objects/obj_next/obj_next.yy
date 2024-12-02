@@ -6,8 +6,8 @@
   "name":"obj_next",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"not needed things",
+    "path":"folders/Objects/not needed things.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"iteams",
-    "path":"folders/Objects/book clues/iteams.yy",
+    "path":"folders/Objects/not needed things/book clues/iteams.yy",
   },
   "parentObjectId":null,
   "persistent":false,

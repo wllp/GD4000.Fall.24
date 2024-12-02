@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Obj_in_iteams",
-    "path":"folders/Objects/cluse/Obj_in_iteams.yy",
+    "path":"folders/Objects/not needed things/cluse/Obj_in_iteams.yy",
   },
   "parentObjectId":null,
   "persistent":false,

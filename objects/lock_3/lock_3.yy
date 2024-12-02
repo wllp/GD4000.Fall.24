@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"briefcase_lock",
-    "path":"folders/Objects/briefcase_lock.yy",
+    "path":"folders/Objects/not needed things/briefcase_lock.yy",
   },
   "parentObjectId":null,
   "persistent":false,

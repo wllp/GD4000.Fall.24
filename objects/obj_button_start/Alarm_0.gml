@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(mainSt);
+room_goto(map_room);
