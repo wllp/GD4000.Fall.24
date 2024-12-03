@@ -25,3 +25,18 @@ if !instance_exists(which_enemy)
 {
 	instance_destroy(obj_pointer)
 }
+if instance_exists( obj_cam_follow)
+{
+if x <= obj_cam_follow.x-250
+{
+	obj_cam_follow.hspeed = -3.5+(obj_cam_follow.x/250)
+}
+else if x >= obj_cam_follow.x+250
+{
+	obj_cam_follow.hspeed = 3.5
+}
+else
+{
+	obj_cam_follow.hspeed = 0
+}
+}
