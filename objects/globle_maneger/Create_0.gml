@@ -39,7 +39,7 @@ global.companion_2_stats = [
 	10,  // companion_2_heal
 	70,  // max health
 	50, // max mana
-	false,// is on fire
+	true,// is on fire
 	false,// is poisend
 	15, //max attk
 ];

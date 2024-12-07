@@ -5,6 +5,7 @@ is_going = true
 has_gone = 0 
 skip = false
 player_turn = true
+debuff = false
 if !instance_exists(enemya) and !instance_exists(enemyb)
 	enemy = [enemyc]
 else if !instance_exists(enemyc) 

@@ -117,7 +117,7 @@ function fight()
 function player1()
 {
 	show_debug_message(big_attk)
-		show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+		//show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
 	if obj_handcuffs.handcuffs_on
 	{
 		alarm[1] = 30
@@ -150,6 +150,14 @@ function player1()
 		alarm[1] = 50
 		show_debug_message("hello")
 		global.player_stats[0] -= enemy[i].attack_num;
+	if instance_exists(obj_burner)
+	{
+		if obj_burner.fire = 2 and  global.player_stats[7] = false
+		{
+			global.player_stats[7] = true	
+			show_debug_message("hello")
+		}
+	}
 	}
 }
 
@@ -158,8 +166,7 @@ function player1()
 
 function companion1()
 {
-		show_debug_message(big_attk)
-		show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+		//show_debug_message(big_attk)
 	if obj_handcuffs.handcuffs_on
 	{
 		alarm[1] = 30
@@ -191,6 +198,14 @@ function companion1()
 		alarm[1] = 50
 		//show_debug_message("hello")
 		global.companion_1_stats[0] -= enemy[i].attack_num;
+
+	if instance_exists(obj_burner)
+	{
+		if obj_burner.fire = 2 and  global.companion_1_stats[7] = false
+		{
+			global.companion_1_stats[7] = true	
+		}
+	}
 
 	}
 }
@@ -230,10 +245,18 @@ function companion2()
 	}
 	else
 	{
+		show_debug_message("hello")
 	alarm[1] = 50
 	//show_debug_message(string(is_going)+"moreout")
-	show_debug_message("hello")
 	global.companion_2_stats[0] -= enemy[i].attack_num;
+	if instance_exists(obj_burner)
+	{
+		if obj_burner.fire = 2 and  global.companion_2_stats[7] = false
+		{
+			global.companion_2_stats[7] = true	
+			show_debug_message("hello")
+		}
+	}
 	}
 }
 
@@ -262,13 +285,14 @@ if has_gone ==  array_length(enemy) or i = 2
 	
 	if skip = true
 	{
-		player_turn = false
-		enemy_turn = true
-	}
+		skip = false
+	} 
 	else
 	{
 		player_turn = true
 		enemy_turn = false
+		debuff = true
+		alarm[2] = 2
 	}
 	has_gone = 0
 	i= -1

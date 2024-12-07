@@ -1,4 +1,4 @@
-attack = 15
+attack = 0
 is_attaking=false
 hp =100
 max_hp = 100
@@ -10,9 +10,11 @@ big_attk_done = false
 random_pick=0
 has_fire = false
 burn = 5
+fire =0
 if room = room_level_1
 {
 	is_attaking=true
 }
+alarm[1]=1
 alarm[0]=1
 alarm[0] = 1
