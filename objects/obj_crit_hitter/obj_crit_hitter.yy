@@ -11,8 +11,8 @@
   "name":"obj_crit_hitter",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemys",
-    "path":"folders/Objects/character's/NPC's/enemys.yy",
+    "name":"fixed",
+    "path":"folders/Objects/character's/NPC's/enemys/fixed.yy",
   },
   "parentObjectId":null,
   "persistent":false,

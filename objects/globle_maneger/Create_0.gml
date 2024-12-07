@@ -11,7 +11,7 @@ global.player_stats = [
 	false,// is on fire (index 7)
 	0,     //on fire time (index 8)
 	false,// is poisend (index 9)
-	
+	20, //max attk (index 10)
 
 ];
 
@@ -26,6 +26,7 @@ global.companion_1_stats = [
 	50, // max mana
 	false,// is on fire
 	false,// is poisend
+	15, //max attk
 
 ];
 
@@ -40,6 +41,7 @@ global.companion_2_stats = [
 	50, // max mana
 	false,// is on fire
 	false,// is poisend
+	15, //max attk
 ];
 //window_set_fullscreen(true)
 global.player_level = 0

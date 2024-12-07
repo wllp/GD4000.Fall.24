@@ -15,7 +15,7 @@ if hp <=  0
 
 	instance_destroy(id)
 }
-if special_attk = true
+if special_attk_bool = true
 {
 	global.player_stats[0] -= special_attk
 	global.companion_1_stats[0]-= special_attk

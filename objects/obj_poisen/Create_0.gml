@@ -6,6 +6,7 @@ heal = 5
 health_bar = 0
 special_attk_bool = false
 special_attk = "poisens" 
+poisend = false
 big_attk_done = false
 random_pick=0
 if room = room_level_1

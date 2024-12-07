@@ -35,6 +35,7 @@
     {"$GMFolder":"","%Name":"NPC's","folderPath":"folders/Objects/character's/NPC's.yy","name":"NPC's","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"companions","folderPath":"folders/Objects/character's/NPC's/companions.yy","name":"companions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemys","folderPath":"folders/Objects/character's/NPC's/enemys.yy","name":"enemys","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"fixed","folderPath":"folders/Objects/character's/NPC's/enemys/fixed.yy","name":"fixed","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/Objects/character's/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"items","folderPath":"folders/Objects/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"in shop","folderPath":"folders/Objects/items/in shop.yy","name":"in shop","resourceType":"GMFolder","resourceVersion":"2.0",},

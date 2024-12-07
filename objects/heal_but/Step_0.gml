@@ -1,4 +1,4 @@
-if place_meeting(x,y,obj_mouse1)and mouse_check_button_pressed(mb_left)
+if place_meeting(x,y,obj_mouse1)and mouse_check_button_pressed(mb_left) && fight_room_maneger.player_turn = true
 {
 	if place_meeting(x,y,player_box)
 	{

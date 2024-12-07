@@ -15,11 +15,12 @@ if hp <=  0
 
 	instance_destroy(id)
 }
-if special_attk = true
-{ 
-	while i <= 2
-	{
-	fight_room_maneger.enemy[i] += (special_attk)
-	}
+if special_attk_bool = true 
+{
+	enemya.hp += special_attk
+	enemyb.hp += special_attk
+	enemyc.hp += special_attk
+	special_attk = false
+	big_attk_done = true
 }
 health_bar = hp/max_hp*100

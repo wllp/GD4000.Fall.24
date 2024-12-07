@@ -1,6 +1,7 @@
 if keyboard_check_pressed(vk_enter) and enemy_turn = false
 {
 	enemy_turn = true
+	player_turn = false
 }
 
 if global.player_stats[0] <= 0
@@ -248,8 +249,27 @@ if has_gone ==  array_length(enemy) or i = 2
 {
 	global.player_stats[3] = global.player_stats[6]
 	global.companion_1_stats[3] = global.companion_1_stats[6]
-	global.companion_2_stats[6] = global.companion_2_stats[6]
-	enemy_turn = false
+	global.companion_2_stats[3] = global.companion_2_stats[6]
+	if instance_exists(obj_spooker)
+	{
+		if obj_spooker.special_attk_bool = true
+		{
+			global.player_stats[2] = global.player_stats[10]
+			global.companion_1_stats[2] = global.companion_1_stats[10]
+			global.companion_2_stats[2] = global.companion_1_stats[10]
+		}
+	}
+	
+	if skip = true
+	{
+		player_turn = false
+		enemy_turn = true
+	}
+	else
+	{
+		player_turn = true
+		enemy_turn = false
+	}
 	has_gone = 0
 	i= -1
 	strob_count++

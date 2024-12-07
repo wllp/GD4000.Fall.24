@@ -15,8 +15,12 @@ if hp <=  0
 
 	instance_destroy(id)
 }
-if special_attk = true
+if special_attk_bool = true
 {
-	fight_room_maneger.group_health[random_pick]=-50
+	enemya.attack +=5
+	enemyb.attack +=5
+	enemyc.attack +=5
+	special_attk_bool = false
+	big_attk_done = true
 }
 health_bar = hp/max_hp*100
