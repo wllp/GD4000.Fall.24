@@ -8,8 +8,11 @@ special_attk_bool = false
 special_attk = 5
 big_attk_done = false
 random_pick=0
+has_fire = false
+burn = 5
 if room = room_level_1
 {
 	is_attaking=true
 }
 alarm[0]=1
+alarm[0] = 1

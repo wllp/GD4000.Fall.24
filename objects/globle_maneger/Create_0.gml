@@ -1,7 +1,3 @@
-global.has_knife = 0
-global.has_pass = 0
-
-
 
 // Player stats array
 global.player_stats = [
@@ -12,6 +8,9 @@ global.player_stats = [
 	10,  //player_heal(index 4)
 	100, // max health (index 5)
 	50, // max mana (index 6)
+	false,// is on fire (index 7)
+	0,     //on fire time (index 8)
+	false,// is poisend (index 9)
 	
 
 ];
@@ -25,6 +24,8 @@ global.companion_1_stats = [
 	10,  // companion_1_heal
 	70,  // max health
 	50, // max mana
+	false,// is on fire
+	false,// is poisend
 
 ];
 
@@ -37,6 +38,8 @@ global.companion_2_stats = [
 	10,  // companion_2_heal
 	70,  // max health
 	50, // max mana
+	false,// is on fire
+	false,// is poisend
 ];
 //window_set_fullscreen(true)
 global.player_level = 0
@@ -47,12 +50,12 @@ global.companion_1_points = 0
 
 global.companion_2_level = 0
 global.companion_2_points = 0
+
 global.newlevel_1 = 50
 global.newlevel_2 = 50
 global.newlevel_3 = 50
 
-global.enemy_1_beat = false
-global.win= false 
+global.win = false 
 global.coins = 0
 
 global.has_bomb = false
@@ -64,3 +67,5 @@ global.has_anti_poisin = false
 global.has_water = false
 global.water_count = 0
 global.anti_poisin_count = 0
+
+global.enemy_1_beat = false

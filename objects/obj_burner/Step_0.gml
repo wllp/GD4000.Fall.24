@@ -17,6 +17,8 @@ if hp <=  0
 }
 if special_attk = true
 {
-	fight_room_maneger.group_health[random_pick] =- special_attk
+	global.player_stats[0] -= special_attk
+	global.companion_1_stats[0]-= special_attk
+	global.companion_2_stats[0]-= special_attk
 }
 health_bar = hp/max_hp*100

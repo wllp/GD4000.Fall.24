@@ -135,18 +135,20 @@ function player1()
 		show_debug_message("def")
 		alarm[1]=50
 	}
+
+	
 	else if big_attk = 5 and enemy[i].big_attk_done= false
 	{
 		enemy[i].special_attk_bool = true
 		show_debug_message("attk")
 		alarm[1] = 50
 	}
+
 	else
 	{
-	alarm[1] = 50
-	//show_debug_message(string(is_going)+"moreout")
-	show_debug_message("hello")
-	global.player_stats[0] -= enemy[i].attack_num;
+		alarm[1] = 50
+		show_debug_message("hello")
+		global.player_stats[0] -= enemy[i].attack_num;
 	}
 }
 
@@ -185,10 +187,10 @@ function companion1()
 	}
 	else
 	{
-	alarm[1] = 50
-	//show_debug_message(string(is_going)+"moreout")
-	show_debug_message("hello")
-	global.companion_1_stats[0] -= enemy[i].attack_num;
+		alarm[1] = 50
+		//show_debug_message("hello")
+		global.companion_1_stats[0] -= enemy[i].attack_num;
+
 	}
 }
 

@@ -11,10 +11,12 @@ if is_attaking=false
 
 if hp <=  0 
 {
-	while i <= 2
-	{
-		fight_room_maneger.group_health[i]=-special_attk
-	}
+	global.player_stats[0] -= special_attk
+	global.companion_1_stats[0]-= special_attk
+	global.companion_2_stats[0]-= special_attk
+	enemya.hp -= special_attk
+	enemyb.hp -= special_attk
+	enemyc.hp -= special_attk
 	instance_destroy(id)
 }
 health_bar = hp/max_hp*100

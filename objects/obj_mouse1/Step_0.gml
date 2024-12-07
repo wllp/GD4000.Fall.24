@@ -21,6 +21,14 @@ instance_destroy(obj_pointer)
 instance_create_layer(which_enemy.x,which_enemy.y,"Instances_1",obj_pointer)
 
 }
+
+if place_meeting(mouse_x, mouse_y, obj_bomber) and mouse_check_button_pressed(mb_left) {
+which_enemy = instance_nearest(mouse_x, mouse_y, obj_bomber).id
+show_debug_message(which_enemy)
+instance_destroy(obj_pointer)
+instance_create_layer(which_enemy.x,which_enemy.y,"Instances_1",obj_pointer)
+
+}
 if !instance_exists(which_enemy)
 {
 	instance_destroy(obj_pointer)

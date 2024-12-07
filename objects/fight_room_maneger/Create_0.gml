@@ -4,7 +4,7 @@ lose = false
 is_going = true
 has_gone = 0 
 if !instance_exists(enemya) and !instance_exists(enemyb)
-	enemy = [enemya]
+	enemy = [enemyc]
 else if !instance_exists(enemyc) 
 {
 	enemy = [enemya,enemyb]
