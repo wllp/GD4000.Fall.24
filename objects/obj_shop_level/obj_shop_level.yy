@@ -3,6 +3,7 @@
   "%Name":"obj_shop_level",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_shop_level",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stall",
-    "path":"sprites/cam_stall/cam_stall.yy",
+    "name":"shop_level",
+    "path":"sprites/shop_level/shop_level.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -296,6 +296,8 @@
     {"name":"player_pos","order":14,"path":"sprites/player_pos/player_pos.yy",},
     {"name":"pointer","order":43,"path":"sprites/pointer/pointer.yy",},
     {"name":"safe","order":6,"path":"sprites/safe/safe.yy",},
+    {"name":"shop_level","order":50,"path":"sprites/shop_level/shop_level.yy",},
+    {"name":"skill_level","order":51,"path":"sprites/skill_level/skill_level.yy",},
     {"name":"Sprite1_1","order":1,"path":"sprites/Sprite1_1/Sprite1_1.yy",},
     {"name":"Sprite18","order":1,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite19","order":16,"path":"sprites/Sprite19/Sprite19.yy",},

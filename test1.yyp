@@ -361,6 +361,8 @@
     {"id":{"name":"player","path":"sprites/player/player.yy",},},
     {"id":{"name":"pointer","path":"sprites/pointer/pointer.yy",},},
     {"id":{"name":"safe","path":"sprites/safe/safe.yy",},},
+    {"id":{"name":"shop_level","path":"sprites/shop_level/shop_level.yy",},},
+    {"id":{"name":"skill_level","path":"sprites/skill_level/skill_level.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"Sprite1_1","path":"sprites/Sprite1_1/Sprite1_1.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
