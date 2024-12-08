@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stop",
-    "path":"sprites/cam_stop/cam_stop.yy",
+    "name":"level_select",
+    "path":"sprites/level_select/level_select.yy",
   },
   "spriteMaskId":null,
   "visible":true,

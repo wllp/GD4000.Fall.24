@@ -346,6 +346,7 @@
     {"id":{"name":"knife_pu","path":"sprites/knife_pu/knife_pu.yy",},},
     {"id":{"name":"knife","path":"sprites/knife/knife.yy",},},
     {"id":{"name":"knife22","path":"sprites/knife22/knife22.yy",},},
+    {"id":{"name":"level_select","path":"sprites/level_select/level_select.yy",},},
     {"id":{"name":"mid_clouds_BG","path":"sprites/mid_clouds_BG/mid_clouds_BG.yy",},},
     {"id":{"name":"mouse1","path":"sprites/mouse1/mouse1.yy",},},
     {"id":{"name":"Note","path":"sprites/Note/Note.yy",},},

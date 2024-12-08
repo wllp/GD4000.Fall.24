@@ -283,6 +283,7 @@
     {"name":"handcuffs","order":36,"path":"sprites/handcuffs/handcuffs.yy",},
     {"name":"knife","order":7,"path":"sprites/knife/knife.yy",},
     {"name":"knife22","order":19,"path":"sprites/knife22/knife22.yy",},
+    {"name":"level_select","order":49,"path":"sprites/level_select/level_select.yy",},
     {"name":"mid_clouds_BG","order":3,"path":"sprites/mid_clouds_BG/mid_clouds_BG.yy",},
     {"name":"mouse1","order":11,"path":"sprites/mouse1/mouse1.yy",},
     {"name":"notebook","order":12,"path":"sprites/notebook/notebook.yy",},
