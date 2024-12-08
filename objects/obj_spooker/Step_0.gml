@@ -17,6 +17,10 @@ if hp <=  0
 }
 if special_attk_bool = true
 {
+	global.player_stats[1] -= special_attk
+	global.companion_1_stats[1]-= special_attk
+	global.companion_2_stats[1]-= special_attk
+	attk_low = true
 	big_attk_done= true
 	special_attk_bool = false
 	

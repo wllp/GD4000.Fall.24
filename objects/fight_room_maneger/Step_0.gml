@@ -158,6 +158,13 @@ function player1()
 			show_debug_message("hello")
 		}
 	}
+	if instance_exists(obj_poison)
+	{
+		if obj_poison.get_poison = 2 and  global.player_stats[9] = false
+		{
+			global.player_stats[9] = true	
+		}
+	}
 	}
 }
 
@@ -204,6 +211,13 @@ function companion1()
 		if obj_burner.fire = 2 and  global.companion_1_stats[7] = false
 		{
 			global.companion_1_stats[7] = true	
+		}
+	}
+	if instance_exists(obj_poison)
+	{
+		if obj_poison.get_poison = 2 and  global.companion_1_stats[9] = false
+		{
+			global.companion_1_stats[9] = true	
 		}
 	}
 
@@ -257,6 +271,13 @@ function companion2()
 			show_debug_message("hello")
 		}
 	}
+	if instance_exists(obj_poison)
+	{
+		if obj_poison.get_poison = 2 and  global.companion_2_stats[9] = false
+		{
+			global.companion_2_stats[9] = true	
+		}
+	}
 	}
 }
 
@@ -291,9 +312,23 @@ if has_gone ==  array_length(enemy) or i = 2
 	{
 		player_turn = true
 		enemy_turn = false
-		debuff = true
-		alarm[2] = 2
+		debuff1 = true
+		debuff2 = true
+		debuff3 = true
 	}
+	if obj_spooker.attk_low = true and obj_spooker.attk_low_cont> 1
+	{
+		obj_spooker.attk_low_cont++
+		obj_spooker.attk_low = false
+	}
+	if obj_spooker.attk_low = false
+	{
+		obj_spooker.attk_low_cont = 0
+		global.player_stats[1] = global.player_stats[11]
+		global.companion_1_stats[1] = global.companion_1_stats[11]
+		global.companion_2_stats[1] = global.companion_1_stats[11]
+	}
+
 	has_gone = 0
 	i= -1
 	strob_count++

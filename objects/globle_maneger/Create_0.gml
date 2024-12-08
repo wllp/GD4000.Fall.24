@@ -11,37 +11,42 @@ global.player_stats = [
 	false,// is on fire (index 7)
 	0,     //on fire time (index 8)
 	false,// is poisend (index 9)
-	20, //max attk (index 10)
+	0,  // poison time (index 10)
+	20, //max attk (index 11)
 
 ];
 
 // Companion 1 stats array
 global.companion_1_stats = [
-    70,  // companion_1_health
-    15,   // companion_1_attack
-	0,	 //companion_1_xp
-    50,  // companion_1_mana
-	10,  // companion_1_heal
-	70,  // max health
-	50, // max mana
-	false,// is on fire
-	false,// is poisend
-	15, //max attk
+    70, // player_health (index 0)
+    10,  // player_attack (index 1)
+	0,   // player_xp (index 2)
+    50,  // player_mana (index 3)
+	10,  //player_heal(index 4)
+	70, // max health (index 5)
+	50, // max mana (index 6)
+	false,// is on fire (index 7)
+	0,     //on fire time (index 8)
+	false,// is poisend (index 9)
+	0,  // poison time (index 10)
+	10, //max attk (index 11)
 
 ];
 
 // Companion 2 stats array
 global.companion_2_stats = [
-    70,  // companion_2_health
-     15,  // companion_2_attack
-	 0,	 //companion_2_xp
-    50,  // companion_2_mana
-	10,  // companion_2_heal
-	70,  // max health
-	50, // max mana
-	true,// is on fire
-	false,// is poisend
-	15, //max attk
+    70, // player_health (index 0)
+    10,  // player_attack (index 1)
+	0,   // player_xp (index 2)
+    50,  // player_mana (index 3)
+	10,  //player_heal(index 4)
+	70, // max health (index 5)
+	50, // max mana (index 6)
+	false,// is on fire (index 7)
+	0,     //on fire time (index 8)
+	false,// is poisend (index 9)
+	0,  // poison time (index 10)
+	10, //max attk (index 11)
 ];
 //window_set_fullscreen(true)
 global.player_level = 0
