@@ -205,7 +205,7 @@
     {"id":{"name":"rm_safe","path":"rooms/rm_safe/rm_safe.yy",},},
     {"id":{"name":"rm_selector","path":"rooms/rm_selector/rm_selector.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"id":{"name":"room_level_1","path":"rooms/room_level_1/room_level_1.yy",},},
+    {"id":{"name":"room_level","path":"rooms/room_level/room_level.yy",},},
     {"id":{"name":"secretRoom","path":"rooms/secretRoom/secretRoom.yy",},},
     {"id":{"name":"shop_room","path":"rooms/shop_room/shop_room.yy",},},
     {"id":{"name":"skill_room","path":"rooms/skill_room/skill_room.yy",},},
@@ -390,7 +390,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
     {"roomId":{"name":"map_room","path":"rooms/map_room/map_room.yy",},},
-    {"roomId":{"name":"room_level_1","path":"rooms/room_level_1/room_level_1.yy",},},
+    {"roomId":{"name":"room_level","path":"rooms/room_level/room_level.yy",},},
     {"roomId":{"name":"rm_safe","path":"rooms/rm_safe/rm_safe.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"mainSt","path":"rooms/mainSt/mainSt.yy",},},

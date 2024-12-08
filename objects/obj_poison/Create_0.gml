@@ -13,7 +13,7 @@ get_poison = 0
 poison = 5
 
 alarm[1]= 1
-if room = room_level_1
+if room = room_level
 {
 	is_attaking=true
 }

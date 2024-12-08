@@ -8,16 +8,20 @@ player_turn = true
 debuff1 = false
 debuff2 = false
 debuff3 = false
-if !instance_exists(enemya) and !instance_exists(enemyb)
-	enemy = [enemyc]
-else if !instance_exists(enemyc) 
-{
-	enemy = [enemya,enemyb]
-}
-else  
-{
-	enemy = [enemya,enemyb,enemyc]
-}
+alarm[3]=3
+enemy = create_maneger.enemy
+//if !instance_exists(enemya) and !instance_exists(enemyb)
+//{
+//	enemy = [enemyc]
+//}
+//else if !instance_exists(enemyc) 
+//{
+//	enemy = [enemya,enemyb]
+//}
+//else  
+//{
+//	enemy = [enemya,enemyb,enemyc]
+//}
 i= -1
 which_person = 0
 random_add = 0

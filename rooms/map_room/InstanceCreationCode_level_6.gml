@@ -1,1 +1,1 @@
-Target_Room = room_level_6;
+Target_Room = room_level;

@@ -9,7 +9,7 @@ special_attk = 0 //"skip"
 skip = false
 big_attk_done = false
 random_pick=0
-if room = room_level_1
+if room = room_level
 {
 	is_attaking=true
 }

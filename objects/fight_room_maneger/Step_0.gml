@@ -32,15 +32,7 @@ if global.companion_2_stats[0] <= 0
 }
 
 
-if !instance_exists(enemya) and !instance_exists(enemyb) and !instance_exists(enemyc)
-{
- win = true
-}
 
-if !instance_exists(companion_1) and !instance_exists(companion_2) and !instance_exists(obj_player_attacking)
-{
-	lose = true
-}
 function fight()
 {
 

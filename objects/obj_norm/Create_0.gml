@@ -9,7 +9,7 @@ special_attk = 20
 big_attk_done = false
 alarm = 0
 random_pick=0
-if room = room_level_1
+if room = room_level
 {
 	is_attaking=true
 }

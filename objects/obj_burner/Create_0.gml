@@ -11,7 +11,7 @@ random_pick=0
 has_fire = false
 burn = 5
 fire =0
-if room = room_level_1
+if room = room_level
 {
 	is_attaking=true
 }
