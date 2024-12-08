@@ -316,17 +316,20 @@ if has_gone ==  array_length(enemy) or i = 2
 		debuff2 = true
 		debuff3 = true
 	}
-	if obj_spooker.attk_low = true and obj_spooker.attk_low_cont> 1
+	if instance_exists(obj_spooker)
 	{
-		obj_spooker.attk_low_cont++
-		obj_spooker.attk_low = false
-	}
-	if obj_spooker.attk_low = false
-	{
-		obj_spooker.attk_low_cont = 0
-		global.player_stats[1] = global.player_stats[11]
-		global.companion_1_stats[1] = global.companion_1_stats[11]
-		global.companion_2_stats[1] = global.companion_1_stats[11]
+		if obj_spooker.attk_low = true and obj_spooker.attk_low_cont> 1
+		{
+			obj_spooker.attk_low_cont++
+			obj_spooker.attk_low = false
+		}
+		if obj_spooker.attk_low = false
+		{
+			obj_spooker.attk_low_cont = 0
+			global.player_stats[1] = global.player_stats[11]
+			global.companion_1_stats[1] = global.companion_1_stats[11]
+			global.companion_2_stats[1] = global.companion_1_stats[11]
+		}
 	}
 
 	has_gone = 0

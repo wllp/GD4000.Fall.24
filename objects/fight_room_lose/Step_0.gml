@@ -1,7 +1,6 @@
-if fight_room_maneger.lose = true 
+if !instance_exists(obj_player_attacking) and !instance_exists(companion_1) and !instance_exists(companion_2)
 {
-	fight_room_maneger.lose = false
-	room_goto(Target_Room);
-	obj_player.x = Target_X;
-	obj_player.y = Target_Y;
+	show_debug_message("you lose")
+	room_goto(map_room)
 }
+

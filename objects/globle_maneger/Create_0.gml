@@ -76,3 +76,29 @@ global.water_count = 0
 global.anti_poisin_count = 0
 
 global.enemy_1_beat = false
+
+global.level_1_won = false
+global.level_2_won = false
+global.level_3_won = false
+global.level_4_won = false
+global.level_5_won = false
+global.level_6_won = false
+global.level_7_won = false
+global.level_8_won = false
+global.level_9_won = false
+global.level_10_won = false
+global.level_11_won = false
+global.level_12_won = false
+
+global.level_1 = false
+global.level_2 = false
+global.level_3 = false
+global.level_4 = false
+global.level_5 = false
+global.level_6 = false
+global.level_7 = false
+global.level_8 = false
+global.level_9 = false
+global.level_10 = false
+global.level_11 = false
+global.level_12 = false

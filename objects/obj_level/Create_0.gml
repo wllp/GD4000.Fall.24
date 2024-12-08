@@ -1,7 +1,7 @@
 i = 0
 image_speed = 0
 level_1.image_index = 0
-level_2.image_index = 1
+level_2.image_index = 0
 level_3.image_index = 1
 level_4.image_index = 1
 level_5.image_index = 1
