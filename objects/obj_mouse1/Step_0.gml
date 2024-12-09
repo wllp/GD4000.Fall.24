@@ -98,3 +98,90 @@ else
 	obj_cam_follow.hspeed = 0
 }
 }
+/// level check
+if mouse_check_button_pressed(mb_left)
+{
+if place_meeting(x,y,level_1) 
+{
+
+	global.level_1_room = true and global.level_1_won = false
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_2) and global.level_1_won = true
+{
+	show_debug_message("hi")
+	global.level_2_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_3) and global.level_2_won = true
+{
+	show_debug_message("hi")
+	global.level_3_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_4) and global.level_3_won = true
+{
+	show_debug_message("hi")
+	global.level_4_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_5)
+{
+	show_debug_message("hi")
+	global.level_5_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_6)
+{
+	show_debug_message("hi")
+	global.level_6_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_7)
+{
+	show_debug_message("hi")
+	global.level_7_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_8)
+{
+	show_debug_message("hi")
+	global.level_8_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_9)
+{
+	show_debug_message("hi")
+	global.level_9_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_10)
+{
+	show_debug_message("hi")
+	global.level_10_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_11)
+{
+	show_debug_message("hi")
+	global.level_11_room = true
+	room_goto(room_level)
+}
+
+if place_meeting(x,y,level_12)
+{
+	show_debug_message("hi")
+	global.level_12_room = true
+	room_goto(room_level)
+}
+}

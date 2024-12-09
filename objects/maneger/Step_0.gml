@@ -1,7 +1,10 @@
+
 if global.level_1_won = true
 {
 	level_2.image_index = 0
-	level_1.image_index = 2
+	with level_1{
+	instance_change(passed,true)
+	}
 }
 if global.level_2_won = true
 {
