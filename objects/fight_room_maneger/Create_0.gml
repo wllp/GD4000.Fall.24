@@ -5,9 +5,7 @@ is_going = true
 has_gone = 0 
 skip = false
 player_turn = true
-debuff1 = false
-debuff2 = false
-debuff3 = false
+debuff = false
 alarm[3]=3
 enemy = create_maneger.enemy
 //if !instance_exists(enemya) and !instance_exists(enemyb)

@@ -1,3 +1,4 @@
+
 if keyboard_check_pressed(vk_enter) and enemy_turn = false
 {
 	enemy_turn = true
@@ -139,7 +140,7 @@ function player1()
 
 	else
 	{
-		alarm[1] = 50
+		
 		show_debug_message("hello")
 		global.player_stats[0] -= enemy[i].attack_num;
 	if instance_exists(obj_burner)
@@ -157,6 +158,7 @@ function player1()
 			global.player_stats[9] = true	
 		}
 	}
+	alarm[1] = 50
 	}
 }
 
@@ -194,7 +196,7 @@ function companion1()
 	}
 	else
 	{
-		alarm[1] = 50
+		
 		//show_debug_message("hello")
 		global.companion_1_stats[0] -= enemy[i].attack_num;
 
@@ -212,6 +214,7 @@ function companion1()
 			global.companion_1_stats[9] = true	
 		}
 	}
+	alarm[1] = 50
 
 	}
 }
@@ -252,7 +255,7 @@ function companion2()
 	else
 	{
 		show_debug_message("hello")
-	alarm[1] = 50
+	
 	//show_debug_message(string(is_going)+"moreout")
 	global.companion_2_stats[0] -= enemy[i].attack_num;
 	if instance_exists(obj_burner)
@@ -260,7 +263,7 @@ function companion2()
 		if obj_burner.fire = 2 and  global.companion_2_stats[7] = false
 		{
 			global.companion_2_stats[7] = true	
-			show_debug_message("hello")
+			show_debug_message("no")
 		}
 	}
 	if instance_exists(obj_poison)
@@ -270,6 +273,7 @@ function companion2()
 			global.companion_2_stats[9] = true	
 		}
 	}
+	alarm[1] = 50
 	}
 }
 
@@ -304,9 +308,12 @@ if has_gone ==  array_length(enemy) or i = 2
 	{
 		player_turn = true
 		enemy_turn = false
-		debuff1 = true
-		debuff2 = true
-		debuff3 = true
+		debuff = true
+		alarm[2]=2
+
+
+		show_debug_message("helloooo")
+		
 	}
 	if instance_exists(obj_spooker)
 	{

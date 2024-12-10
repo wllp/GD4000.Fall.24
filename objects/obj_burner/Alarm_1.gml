@@ -1,2 +1,2 @@
-fire = irandom(5)
+fire = 2
 alarm[1] = 1

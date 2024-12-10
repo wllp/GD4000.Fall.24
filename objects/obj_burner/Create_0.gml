@@ -1,4 +1,4 @@
-attack = 5
+attack = 0
 is_attaking=false
 hp =100
 max_hp = 100
