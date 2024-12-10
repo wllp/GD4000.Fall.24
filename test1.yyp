@@ -66,6 +66,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Background","folderPath":"folders/Sprites/Background.yy","name":"Background","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"clue_ds","folderPath":"folders/Sprites/clue_ds.yy","name":"clue_ds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"enemys","folderPath":"folders/Sprites/enemys.yy","name":"enemys","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main menu","folderPath":"folders/Sprites/Main menu.yy","name":"Main menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"roomsprite","folderPath":"folders/Sprites/roomsprite.yy","name":"roomsprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"s_clues","folderPath":"folders/Sprites/s_clues.yy","name":"s_clues","resourceType":"GMFolder","resourceVersion":"2.0",},

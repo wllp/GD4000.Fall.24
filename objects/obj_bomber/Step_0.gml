@@ -20,3 +20,5 @@ if hp <=  0
 	instance_destroy(id)
 }
 health_bar = hp/max_hp*100
+if instance_exists(enemya)
+show_debug_message("a exists")
