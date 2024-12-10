@@ -10,8 +10,8 @@ if global.level_1_room = true
 if global.level_2_room = true
 {
 	enemya = instance_create_layer(500,180,"Instances_1",obj_norm)
-	enemyb = instance_create_layer(550,230,"Instances_1",obj_norm)
-	enemyc = instance_create_layer(550,80,"Instances_1",obj_norm)
+	enemyb = instance_create_layer(550,230,"Instances_1",obj_bomber)
+	enemyc = instance_create_layer(550,80,"Instances_1",obj_skiper)
 	instance_create_layer(x,y,"Instances_1",room_level_2)
 }
 

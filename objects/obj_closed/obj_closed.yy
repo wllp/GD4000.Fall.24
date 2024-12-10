@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"closed",
-    "path":"sprites/closed/closed.yy",
+    "name":"level_select_closed",
+    "path":"sprites/level_select_closed/level_select_closed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

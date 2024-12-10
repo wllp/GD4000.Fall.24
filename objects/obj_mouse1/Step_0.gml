@@ -115,6 +115,13 @@ if place_meeting(x,y,level_2) and global.level_1_won = true
 	room_goto(room_level)
 }
 
+if place_meeting(x,y,shop_1)
+{
+	show_debug_message("hi")
+	global.shop_1_done = true
+	room_goto(shop_room)
+}
+
 if place_meeting(x,y,level_3) and global.level_2_won = true
 {
 	show_debug_message("hi")
@@ -142,6 +149,12 @@ if place_meeting(x,y,level_6)
 	global.level_6_room = true
 	room_goto(room_level)
 }
+if place_meeting(x,y,shop_2)
+{
+	show_debug_message("hi")
+	global.shop_2_done = true
+	room_goto(shop_room)
+}
 
 if place_meeting(x,y,level_7)
 {
@@ -156,6 +169,13 @@ if place_meeting(x,y,level_8)
 	global.level_8_room = true
 	room_goto(room_level)
 }
+if place_meeting(x,y,shop_3)
+{
+	show_debug_message("hi")
+	global.shop_3_done = true
+	room_goto(shop_room)
+}
+
 
 if place_meeting(x,y,level_9)
 {

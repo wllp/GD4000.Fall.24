@@ -18,3 +18,4 @@ if room = room_level
 alarm[1]=1
 alarm[0]=1
 alarm[0] = 1
+image_xscale = -1

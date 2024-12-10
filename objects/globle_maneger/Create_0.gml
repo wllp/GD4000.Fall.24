@@ -103,3 +103,7 @@ global.level_9_room = false
 global.level_10_room = false
 global.level_11_room = false
 global.level_12_room = false
+
+global.shop_1_done = false
+global.shop_2_done = false
+global.shop_3_done = false

@@ -14,3 +14,4 @@ if room = room_level
 	is_attaking=true
 }
 alarm[0]=1
+image_xscale = -1

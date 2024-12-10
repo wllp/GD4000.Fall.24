@@ -51,6 +51,12 @@ if create_maneger.win = true
 	{
 		global.level_12_won = true
 	}
+	global.player_stats[0] = global.player_stats[5]
+	global.companion_1_stats[0] = global.companion_1_stats[5]
+	global.companion_2_stats[0] = global.companion_2_stats[5]
+	global.player_stats[3] = global.player_stats[6]
+	global.companion_1_stats[3] = global.companion_1_stats[6]
+	global.companion_2_stats[3] = global.companion_2_stats[6]	
 	global.coins +=10
 	show_debug_message("you Win")
 	room_goto(map_room)
