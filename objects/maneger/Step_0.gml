@@ -1,9 +1,12 @@
 
 if global.level_1_won = true
 {
+	with level_2{
+	instance_change(obj_level,true)
+	}
 	level_2.image_index = 0
 	with level_1{
-	instance_change(passed,true)
+	instance_change(obj_passed,true)
 	}
 }
 if global.level_2_won = true
