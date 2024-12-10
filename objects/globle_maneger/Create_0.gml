@@ -64,6 +64,7 @@ global.newlevel_3 = 50
 
 global.win = false 
 global.coins = 0
+global.overcharge_error = false
 
 global.has_bomb = false
 global.has_coffe = false
