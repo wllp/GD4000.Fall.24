@@ -65,14 +65,24 @@ global.newlevel_3 = 50
 global.win = false 
 global.coins = 0
 global.overcharge_error = false
-
-global.has_bomb = false
-global.has_coffe = false
-global.has_dount = false
-global.has_handcuffs = false
-global.has_strob = false
-global.has_anti_poisin = false
-global.has_water = false
+global.has_items =[
+false, //has_bomb 
+false, //has_coffe
+false, //has_dount 
+false, //has_handcuffs 
+false, //has_strob
+false, //has_anti_poisin
+false, //has_water
+]
+global.is_selected =[
+false, //has_bomb 
+false, //has_coffe
+false, //has_dount 
+false, //has_handcuffs 
+false, //has_strob
+false, //has_anti_poisin
+false, //has_water
+]
 global.water_count = 0
 global.anti_poisin_count = 0
 
@@ -107,3 +117,7 @@ global.level_12_room = false
 global.shop_1_done = false
 global.shop_2_done = false
 global.shop_3_done = false
+
+global.holder1_full = false  
+global.holder2_full = false  
+global.holder3_full = false  

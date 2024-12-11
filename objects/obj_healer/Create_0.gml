@@ -9,6 +9,7 @@ special_attk = 25 //heals team
 big_attk_done = false
 random_pick=0
 i = 0
+enemy = create_maneger.enemy
 if room = room_level
 {
 	is_attaking=true

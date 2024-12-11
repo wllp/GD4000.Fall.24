@@ -17,9 +17,9 @@ if hp <=  0
 }
 if special_attk_bool = true 
 {
-	enemya.hp += special_attk
-	enemyb.hp += special_attk
-	enemyc.hp += special_attk
+	create_maneger.enemy[2].hp += special_attk
+	create_maneger.enemy[1].hp += special_attk
+	create_maneger.enemy[2].hp += special_attk
 	special_attk = false
 	big_attk_done = true
 }

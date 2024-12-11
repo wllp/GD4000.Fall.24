@@ -111,17 +111,23 @@ function player1()
 {
 	show_debug_message(big_attk)
 		//show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+	if instance_exists(obj_handcuffs){
 	if obj_handcuffs.handcuffs_on
 	{
 		alarm[1] = 30
+	}
 	}
 	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	else if strob_hit = 2 and obj_strob.strob = true
+	else if instance_exists(obj_strob)
 	{
+	if strob_hit = 2 and obj_strob.strob = true
+	{
+		strob_count++
 		alarm[1] = 50
+	}
 	}
 	else if def_but.def = true and def_but.def_num[0] = true
 	{
@@ -168,18 +174,23 @@ function player1()
 function companion1()
 {
 		//show_debug_message(big_attk)
+	if instance_exists(obj_handcuffs){
 	if obj_handcuffs.handcuffs_on
 	{
 		alarm[1] = 30
+	}
 	}
 	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	else if strob_hit = 2 and obj_strob.strob = true
+	else if instance_exists(obj_strob)
+	{
+	 if strob_hit = 2 and obj_strob.strob = true
 	{
 		strob_count++
 		alarm[1] = 50
+	}
 	}
 	else if def_but.def = true and def_but.def_num[0] = true
 	{
@@ -226,18 +237,23 @@ function companion2()
 {
 			show_debug_message(big_attk)
 		show_debug_message(string(def_but.def)+" def "+string(def_but.def_num[0]))
+	if instance_exists(obj_handcuffs){
 	if obj_handcuffs.handcuffs_on
 	{
 		alarm[1] = 30
+	}
 	}
 	else if miss_attk = 3
 	{
 		alarm[1] = 50
 	}
-	else if strob_hit = 2 and obj_strob.strob = true
+	else if instance_exists(obj_strob)
+	{
+	 if strob_hit = 2 and obj_strob.strob = true
 	{
 		strob_count++
 		alarm[1] = 50
+	}
 	}
 	else if def_but.def = true and def_but.def_num[0] = true
 	{
@@ -308,10 +324,9 @@ if has_gone ==  array_length(enemy) or i = 2
 	{
 		player_turn = true
 		enemy_turn = false
-		debuff = true
-		alarm[2]=2
-
-
+		debuff1 = true
+		debuff2 = true
+		debuff3 = true
 		show_debug_message("helloooo")
 		
 	}
@@ -334,7 +349,7 @@ if has_gone ==  array_length(enemy) or i = 2
 	has_gone = 0
 	i= -1
 	strob_count++
-	if strob_count <= 3
+	if strob_count <= 3 and instance_exists(obj_strob)
 	{
 		obj_strob.strob = false
 		strob_count = 0

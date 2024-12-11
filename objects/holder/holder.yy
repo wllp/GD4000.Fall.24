@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water_shop",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"holder",
+  "eventList":[],
   "managed":true,
-  "name":"obj_water_shop",
+  "name":"holder",
   "overriddenProperties":[],
   "parent":{
     "name":"in shop",
@@ -25,15 +23,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"item_price","filters":[],"listItems":[],"multiselect":false,"name":"item_price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"water",
-    "path":"sprites/water/water.yy",
+    "name":"door",
+    "path":"sprites/door/door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
