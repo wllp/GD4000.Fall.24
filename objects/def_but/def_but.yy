@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stall",
-    "path":"sprites/cam_stall/cam_stall.yy",
+    "name":"Sprite88",
+    "path":"sprites/Sprite88/Sprite88.yy",
   },
   "spriteMaskId":null,
   "visible":true,

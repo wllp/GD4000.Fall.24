@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam",
-    "path":"sprites/cam/cam.yy",
+    "name":"Sprite89",
+    "path":"sprites/Sprite89/Sprite89.yy",
   },
   "spriteMaskId":null,
   "visible":true,

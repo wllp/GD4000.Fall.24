@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cam_stop",
-    "path":"sprites/cam_stop/cam_stop.yy",
+    "name":"Hattack",
+    "path":"sprites/Hattack/Hattack.yy",
   },
   "spriteMaskId":null,
   "visible":true,
