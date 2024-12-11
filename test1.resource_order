@@ -349,6 +349,12 @@
     {"name":"Sprite84","order":59,"path":"sprites/Sprite84/Sprite84.yy",},
     {"name":"Sprite85","order":60,"path":"sprites/Sprite85/Sprite85.yy",},
     {"name":"Sprite86","order":61,"path":"sprites/Sprite86/Sprite86.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"Sprite88","order":19,"path":"sprites/Sprite88/Sprite88.yy",},
+    {"name":"Sprite89","order":20,"path":"sprites/Sprite89/Sprite89.yy",},
+    {"name":"Sprite90","order":21,"path":"sprites/Sprite90/Sprite90.yy",},
+>>>>>>> Stashed changes
     {"name":"start_background","order":4,"path":"sprites/start_background/start_background.yy",},
     {"name":"start","order":10,"path":"sprites/start/start.yy",},
     {"name":"strob_light","order":7,"path":"sprites/strob_light/strob_light.yy",},

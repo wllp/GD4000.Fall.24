@@ -419,6 +419,12 @@
     {"id":{"name":"Sprite84","path":"sprites/Sprite84/Sprite84.yy",},},
     {"id":{"name":"Sprite85","path":"sprites/Sprite85/Sprite85.yy",},},
     {"id":{"name":"Sprite86","path":"sprites/Sprite86/Sprite86.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"Sprite88","path":"sprites/Sprite88/Sprite88.yy",},},
+    {"id":{"name":"Sprite89","path":"sprites/Sprite89/Sprite89.yy",},},
+    {"id":{"name":"Sprite90","path":"sprites/Sprite90/Sprite90.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"start_background","path":"sprites/start_background/start_background.yy",},},
     {"id":{"name":"start","path":"sprites/start/start.yy",},},
     {"id":{"name":"strob_light","path":"sprites/strob_light/strob_light.yy",},},
