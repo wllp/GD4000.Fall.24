@@ -11,9 +11,7 @@ if is_attaking=false
 
 if hp <=  0 
 {
-
-
-	instance_destroy(id)
+instance_destroy(id)
 }
 if special_attk_bool = true
 {

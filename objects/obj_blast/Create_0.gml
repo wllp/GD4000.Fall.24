@@ -1,3 +1,4 @@
+image_speed = 0
 attack = 15
 is_attaking=false
 hp =100

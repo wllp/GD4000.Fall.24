@@ -17,9 +17,15 @@ if hp <=  0
 }
 if special_attk_bool = true
 {
-	enemya.attack +=5
-	enemyb.attack +=5
-	enemyc.attack +=5
+	if instance_exists(create_maneger.enemy[0])	{
+	create_maneger.enemy[0].attack +=5
+	}
+	if instance_exists(create_maneger.enemy[1])	{
+	create_maneger.enemy[1].attack +=5
+	}
+	if instance_exists(create_maneger.enemy[2])	{	
+	create_maneger.enemy[2].attack +=5
+	}
 	special_attk_bool = false
 	big_attk_done = true
 }

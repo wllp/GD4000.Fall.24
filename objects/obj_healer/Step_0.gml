@@ -17,9 +17,15 @@ if hp <=  0
 }
 if special_attk_bool = true 
 {
+	if instance_exists(create_maneger.enemy[0])	{
 	create_maneger.enemy[2].hp += special_attk
+	}
+	if instance_exists(create_maneger.enemy[1])	{
 	create_maneger.enemy[1].hp += special_attk
+	}
+	if instance_exists(create_maneger.enemy[2])	{
 	create_maneger.enemy[2].hp += special_attk
+	}
 	special_attk = false
 	big_attk_done = true
 }
