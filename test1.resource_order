@@ -68,6 +68,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_menu","order":2,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"fnt_msgothic","order":1,"path":"fonts/fnt_msgothic/fnt_msgothic.yy",},
+    {"name":"fnt_shop","order":3,"path":"fonts/fnt_shop/fnt_shop.yy",},
     {"name":"anti_poisin","order":7,"path":"objects/anti_poisin/anti_poisin.yy",},
     {"name":"backdrop","order":27,"path":"objects/backdrop/backdrop.yy",},
     {"name":"companion_2","order":1,"path":"objects/companion_2/companion_2.yy",},
@@ -345,6 +346,8 @@
     {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite57","order":42,"path":"sprites/Sprite57/Sprite57.yy",},
     {"name":"Sprite6","order":5,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"Sprite84","order":18,"path":"sprites/Sprite84/Sprite84.yy",},
+    {"name":"Sprite85","order":19,"path":"sprites/Sprite85/Sprite85.yy",},
     {"name":"start_background","order":4,"path":"sprites/start_background/start_background.yy",},
     {"name":"start","order":10,"path":"sprites/start/start.yy",},
     {"name":"strob_light","order":35,"path":"sprites/strob_light/strob_light.yy",},

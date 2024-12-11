@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite85",
+    "path":"sprites/Sprite85/Sprite85.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
