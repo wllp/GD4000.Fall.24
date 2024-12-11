@@ -5,6 +5,12 @@ if global.coins >= 10 and global.has_items[1] = false and  (place_meeting(x, y, 
 	global.has_items[1]= true
 	
 }
+
+if global.has_items[1] == true
+{
+	image_alpha = 0
+}
+
 //if (mouse_check_button(mb_left)) and global.has_items[1] = true and place_meeting(x, y, obj_mouse1)and global.coins> -1
 //{
 //  alarm[0] = 10

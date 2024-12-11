@@ -66,13 +66,13 @@ global.win = false
 global.coins = 0
 global.overcharge_error = false
 global.has_items =[
-false, //has_bomb 
-false, //has_coffe
-false, //has_dount 
-false, //has_handcuffs 
-false, //has_strob
-false, //has_anti_poisin
-false, //has_water
+false, //has_bomb			0
+false, //has_coffe			1
+false, //has_dount			2
+false, //has_handcuffs		3
+false, //has_strob			4
+false, //has_anti_poisin	5
+false, //has_water			6
 ]
 global.is_selected =[
 false, //has_bomb 
